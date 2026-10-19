@@ -3,6 +3,17 @@
 Simulation code and synthetic data supporting the manuscript of this title.
 No measured site data are included. These profiles represent constructed scenarios, not observations or forecasts for a specific location.
 
+**Authors:** Rajae Gaamouche $^{1,2,*}$, Md. Ashraful Babu $^{3,4}$, and Mohammed Lahby $^{5}$  
+$^{1}$ Department of Electronics and Electromechanics, National School of Mineral Industry (ENIM), Rabat 10000, Morocco  
+$^{2}$ SmartiLab Laboratory, Moroccan School of Sciences of Engineering (EMSI), Rabat 10000, Morocco  
+$^{3}$ Department of Physical Sciences, Independent University, Bangladesh, Dhaka 1245, Bangladesh  
+$^{4}$ Explainable Artificial Intelligence and Optimization Research (XAiOR), Independent University, Bangladesh, Dhaka 1245, Bangladesh  
+$^{5}$ Laboratory of Mathematics, Artificial Intelligence, and Digital Learning, Higher Normal School, Hassan II University, Casablanca 50069, Morocco  
+
+*Correspondence: `r.gaamouche@enim.ac.ma`
+
+---
+
 ## Contents and provenance
 
 - `reproducibility/`: original analysis scripts, dependency specifications and archived numerical outputs supplied with the study. The scripts and archived CSV/JSON files are preserved unchanged.
