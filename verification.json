@@ -1,0 +1,18 @@
+{
+  "python": "3.13.5",
+  "dependencies": {
+    "numpy": "2.3.1",
+    "scipy": "1.18.1",
+    "networkx": "3.5",
+    "matplotlib": "3.11.2"
+  },
+  "annual_seeds": 30,
+  "mixture_frontiers_checked": 660,
+  "scenarios_checked": 14,
+  "quarter_hour_steps": 35040,
+  "base_profile_max_absolute_difference": 0.0,
+  "max_finite_frontier_difference": 0.0,
+  "base_lp_energy_kwh": 8146.6323087880855,
+  "base_lp_success": true,
+  "scope": "Input regeneration and analytical frontier checks plus one base-case LP; full archived experiment suite and timings were not rerun."
+}

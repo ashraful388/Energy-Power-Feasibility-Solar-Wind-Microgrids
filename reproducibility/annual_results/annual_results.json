@@ -1,0 +1,4749 @@
+{
+  "config": {
+    "seeds": [
+      20261017,
+      20261018,
+      20261019,
+      20261020,
+      20261021,
+      20261022,
+      20261023,
+      20261024,
+      20261025,
+      20261026,
+      20261027,
+      20261028,
+      20261029,
+      20261030,
+      20261031,
+      20261032,
+      20261033,
+      20261034,
+      20261035,
+      20261036,
+      20261037,
+      20261038,
+      20261039,
+      20261040,
+      20261041,
+      20261042,
+      20261043,
+      20261044,
+      20261045,
+      20261046
+    ],
+    "K": 600.0,
+    "Pc": 200.0,
+    "Pd": 160.0,
+    "eta_c": 0.95,
+    "eta_d": 0.95,
+    "SOC_window": 0.8,
+    "horizon": 8760,
+    "dt": 1
+  },
+  "mix": [
+    {
+      "seed": 20261017,
+      "alpha": 0.0,
+      "yield_ratio": 1.7779415720302936,
+      "E": 39101.515308537695,
+      "reason": "finite",
+      "start": 3642,
+      "length": 1633,
+      "normalized_E": 74554.91655328426
+    },
+    {
+      "seed": 20261017,
+      "alpha": 0.1,
+      "yield_ratio": 1.7318772061078107,
+      "E": 19933.009271199422,
+      "reason": "finite",
+      "start": 3642,
+      "length": 1432,
+      "normalized_E": 47624.47086350474
+    },
+    {
+      "seed": 20261017,
+      "alpha": 0.2,
+      "yield_ratio": 1.6858128401853278,
+      "E": 14819.709578270384,
+      "reason": "finite",
+      "start": 6865,
+      "length": 263,
+      "normalized_E": 21308.91079096374
+    },
+    {
+      "seed": 20261017,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.6397484742628454,
+      "E": 12490.457360865548,
+      "reason": "finite",
+      "start": 6858,
+      "length": 270,
+      "normalized_E": 14816.656879835326
+    },
+    {
+      "seed": 20261017,
+      "alpha": 0.4,
+      "yield_ratio": 1.5936841083403626,
+      "E": 10294.970804175944,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "normalized_E": 12483.964511857514
+    },
+    {
+      "seed": 20261017,
+      "alpha": 0.5,
+      "yield_ratio": 1.5476197424178795,
+      "E": 8146.632308788336,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "normalized_E": 10070.352367164101
+    },
+    {
+      "seed": 20261017,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.5015553764953966,
+      "E": 6251.883706120658,
+      "reason": "finite",
+      "start": 6905,
+      "length": 225,
+      "normalized_E": 7547.602857354272
+    },
+    {
+      "seed": 20261017,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4554910105729137,
+      "E": 5896.878861365549,
+      "reason": "finite",
+      "start": 8632,
+      "length": 249,
+      "normalized_E": 6645.294814357127
+    },
+    {
+      "seed": 20261017,
+      "alpha": 0.8,
+      "yield_ratio": 1.4094266446504307,
+      "E": 6607.705098182138,
+      "reason": "finite",
+      "start": 8632,
+      "length": 496,
+      "normalized_E": 6839.288620179577
+    },
+    {
+      "seed": 20261017,
+      "alpha": 0.9,
+      "yield_ratio": 1.363362278727948,
+      "E": 21863.203908894444,
+      "reason": "finite",
+      "start": 7457,
+      "length": 2847,
+      "normalized_E": 17119.16556194634
+    },
+    {
+      "seed": 20261017,
+      "alpha": 1.0,
+      "yield_ratio": 1.3172979128054654,
+      "E": 75813.88000886684,
+      "reason": "finite",
+      "start": 6641,
+      "length": 3974,
+      "normalized_E": 64794.7698986992
+    },
+    {
+      "seed": 20261018,
+      "alpha": 0.0,
+      "yield_ratio": 2.019966981106145,
+      "E": 18406.9005303147,
+      "reason": "finite",
+      "start": 1454,
+      "length": 283,
+      "normalized_E": 39579.25053092414
+    },
+    {
+      "seed": 20261018,
+      "alpha": 0.1,
+      "yield_ratio": 1.94773992448768,
+      "E": 15835.881855189728,
+      "reason": "finite",
+      "start": 1455,
+      "length": 281,
+      "normalized_E": 23000.72589703848
+    },
+    {
+      "seed": 20261018,
+      "alpha": 0.2,
+      "yield_ratio": 1.875512867869215,
+      "E": 13294.111434195089,
+      "reason": "finite",
+      "start": 1455,
+      "length": 281,
+      "normalized_E": 17286.686279309186
+    },
+    {
+      "seed": 20261018,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.80328581125075,
+      "E": 10908.752063313616,
+      "reason": "finite",
+      "start": 1456,
+      "length": 253,
+      "normalized_E": 14849.92897768435
+    },
+    {
+      "seed": 20261018,
+      "alpha": 0.4,
+      "yield_ratio": 1.7310587546322849,
+      "E": 8704.110294418875,
+      "reason": "finite",
+      "start": 1456,
+      "length": 254,
+      "normalized_E": 12373.188709643742
+    },
+    {
+      "seed": 20261018,
+      "alpha": 0.5,
+      "yield_ratio": 1.6588316980138196,
+      "E": 6539.120274198736,
+      "reason": "finite",
+      "start": 1457,
+      "length": 253,
+      "normalized_E": 9770.832754595758
+    },
+    {
+      "seed": 20261018,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.5866046413953543,
+      "E": 4638.156958862033,
+      "reason": "finite",
+      "start": 8441,
+      "length": 136,
+      "normalized_E": 8716.423321453447
+    },
+    {
+      "seed": 20261018,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.5143775847768894,
+      "E": 4552.501880600466,
+      "reason": "finite",
+      "start": 8441,
+      "length": 136,
+      "normalized_E": 8705.895968140132
+    },
+    {
+      "seed": 20261018,
+      "alpha": 0.8,
+      "yield_ratio": 1.4421505281584241,
+      "E": 8149.606900866784,
+      "reason": "finite",
+      "start": 7937,
+      "length": 640,
+      "normalized_E": 9627.006519666582
+    },
+    {
+      "seed": 20261018,
+      "alpha": 0.9,
+      "yield_ratio": 1.369923471539959,
+      "E": 20629.581464863164,
+      "reason": "finite",
+      "start": 7385,
+      "length": 2127,
+      "normalized_E": 17553.999176821817
+    },
+    {
+      "seed": 20261018,
+      "alpha": 1.0,
+      "yield_ratio": 1.297696414921494,
+      "E": 74561.60328236222,
+      "reason": "finite",
+      "start": 6425,
+      "length": 3975,
+      "normalized_E": 61349.202309854736
+    },
+    {
+      "seed": 20261019,
+      "alpha": 0.0,
+      "yield_ratio": 1.7634997128567464,
+      "E": 22201.404704570785,
+      "reason": "finite",
+      "start": 4434,
+      "length": 641,
+      "normalized_E": 41643.92353944268
+    },
+    {
+      "seed": 20261019,
+      "alpha": 0.1,
+      "yield_ratio": 1.71806906584914,
+      "E": 16786.30226199294,
+      "reason": "finite",
+      "start": 6445,
+      "length": 328,
+      "normalized_E": 20743.295595957068
+    },
+    {
+      "seed": 20261019,
+      "alpha": 0.2,
+      "yield_ratio": 1.6726384188415335,
+      "E": 14093.3203522056,
+      "reason": "finite",
+      "start": 6446,
+      "length": 327,
+      "normalized_E": 17165.91664431135
+    },
+    {
+      "seed": 20261019,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.627207771833927,
+      "E": 11540.715455170808,
+      "reason": "finite",
+      "start": 6447,
+      "length": 327,
+      "normalized_E": 14489.517892192554
+    },
+    {
+      "seed": 20261019,
+      "alpha": 0.4,
+      "yield_ratio": 1.5817771248263204,
+      "E": 9120.629800292663,
+      "reason": "finite",
+      "start": 6448,
+      "length": 326,
+      "normalized_E": 11805.152110115072
+    },
+    {
+      "seed": 20261019,
+      "alpha": 0.5,
+      "yield_ratio": 1.5363464778187137,
+      "E": 8029.454612180125,
+      "reason": "finite",
+      "start": 8344,
+      "length": 208,
+      "normalized_E": 9207.778356583294
+    },
+    {
+      "seed": 20261019,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4909158308111072,
+      "E": 7457.44674153981,
+      "reason": "finite",
+      "start": 8344,
+      "length": 208,
+      "normalized_E": 8255.197685408435
+    },
+    {
+      "seed": 20261019,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4454851838035008,
+      "E": 7021.5819831815315,
+      "reason": "finite",
+      "start": 8344,
+      "length": 424,
+      "normalized_E": 8067.1251139645465
+    },
+    {
+      "seed": 20261019,
+      "alpha": 0.8,
+      "yield_ratio": 1.4000545367958943,
+      "E": 8886.650494781818,
+      "reason": "finite",
+      "start": 8344,
+      "length": 496,
+      "normalized_E": 8888.07020151877
+    },
+    {
+      "seed": 20261019,
+      "alpha": 0.9,
+      "yield_ratio": 1.3546238897882876,
+      "E": 26107.23461783577,
+      "reason": "finite",
+      "start": 7193,
+      "length": 2871,
+      "normalized_E": 20066.7368572111
+    },
+    {
+      "seed": 20261019,
+      "alpha": 1.0,
+      "yield_ratio": 1.3091932427806812,
+      "E": 73037.47671002775,
+      "reason": "finite",
+      "start": 6426,
+      "length": 3949,
+      "normalized_E": 61727.185462196096
+    },
+    {
+      "seed": 20261020,
+      "alpha": 0.0,
+      "yield_ratio": 1.679523270063293,
+      "E": 59001.77466603277,
+      "reason": "finite",
+      "start": 3357,
+      "length": 2462,
+      "normalized_E": 79922.58810842951
+    },
+    {
+      "seed": 20261020,
+      "alpha": 0.1,
+      "yield_ratio": 1.6445012937799108,
+      "E": 31990.147096578177,
+      "reason": "finite",
+      "start": 4284,
+      "length": 1535,
+      "normalized_E": 51575.70644953993
+    },
+    {
+      "seed": 20261020,
+      "alpha": 0.2,
+      "yield_ratio": 1.609479317496529,
+      "E": 19886.44027894402,
+      "reason": "finite",
+      "start": 4990,
+      "length": 829,
+      "normalized_E": 26995.091718038762
+    },
+    {
+      "seed": 20261020,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.5744573412131468,
+      "E": 13054.465067680849,
+      "reason": "finite",
+      "start": 305,
+      "length": 617,
+      "normalized_E": 17811.84035742622
+    },
+    {
+      "seed": 20261020,
+      "alpha": 0.4,
+      "yield_ratio": 1.539435364929765,
+      "E": 11109.796694628112,
+      "reason": "finite",
+      "start": 305,
+      "length": 616,
+      "normalized_E": 15378.315709242248
+    },
+    {
+      "seed": 20261020,
+      "alpha": 0.5,
+      "yield_ratio": 1.504413388646383,
+      "E": 9841.598091877735,
+      "reason": "finite",
+      "start": 305,
+      "length": 616,
+      "normalized_E": 13542.774311081781
+    },
+    {
+      "seed": 20261020,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.469391412363001,
+      "E": 9525.958953279403,
+      "reason": "finite",
+      "start": 305,
+      "length": 616,
+      "normalized_E": 12118.684793224253
+    },
+    {
+      "seed": 20261020,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.434369436079619,
+      "E": 9502.9452770317,
+      "reason": "finite",
+      "start": 305,
+      "length": 615,
+      "normalized_E": 10775.937727346867
+    },
+    {
+      "seed": 20261020,
+      "alpha": 0.8,
+      "yield_ratio": 1.399347459796237,
+      "E": 10800.852930561457,
+      "reason": "finite",
+      "start": 305,
+      "length": 783,
+      "normalized_E": 10773.40883103243
+    },
+    {
+      "seed": 20261020,
+      "alpha": 0.9,
+      "yield_ratio": 1.364325483512855,
+      "E": 30648.711957579202,
+      "reason": "finite",
+      "start": 7025,
+      "length": 2823,
+      "normalized_E": 25944.93235803538
+    },
+    {
+      "seed": 20261020,
+      "alpha": 1.0,
+      "yield_ratio": 1.329303507229473,
+      "E": 72493.23649935311,
+      "reason": "finite",
+      "start": 6497,
+      "length": 3903,
+      "normalized_E": 63415.35681098791
+    },
+    {
+      "seed": 20261021,
+      "alpha": 0.0,
+      "yield_ratio": 1.718323770872486,
+      "E": 43849.6226321899,
+      "reason": "finite",
+      "start": 5239,
+      "length": 1314,
+      "normalized_E": 55797.89786822867
+    },
+    {
+      "seed": 20261021,
+      "alpha": 0.1,
+      "yield_ratio": 1.678005892906785,
+      "E": 31694.49902074749,
+      "reason": "finite",
+      "start": 5239,
+      "length": 1315,
+      "normalized_E": 44530.81243510371
+    },
+    {
+      "seed": 20261021,
+      "alpha": 0.2,
+      "yield_ratio": 1.637688014941084,
+      "E": 22939.41444459767,
+      "reason": "finite",
+      "start": 5728,
+      "length": 826,
+      "normalized_E": 33098.808613727684
+    },
+    {
+      "seed": 20261021,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.5973701369753825,
+      "E": 16346.888113403518,
+      "reason": "finite",
+      "start": 5729,
+      "length": 828,
+      "normalized_E": 23956.499303767603
+    },
+    {
+      "seed": 20261021,
+      "alpha": 0.4,
+      "yield_ratio": 1.5570522590096818,
+      "E": 10323.737712461967,
+      "reason": "finite",
+      "start": 5850,
+      "length": 707,
+      "normalized_E": 16922.812425072712
+    },
+    {
+      "seed": 20261021,
+      "alpha": 0.5,
+      "yield_ratio": 1.516734381043981,
+      "E": 8721.140808733937,
+      "reason": "finite",
+      "start": 8368,
+      "length": 227,
+      "normalized_E": 9970.928338513884
+    },
+    {
+      "seed": 20261021,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.47641650307828,
+      "E": 7474.450574716844,
+      "reason": "finite",
+      "start": 8368,
+      "length": 227,
+      "normalized_E": 8387.71757364116
+    },
+    {
+      "seed": 20261021,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4360986251125791,
+      "E": 6431.552180609549,
+      "reason": "finite",
+      "start": 8368,
+      "length": 232,
+      "normalized_E": 6855.478567249753
+    },
+    {
+      "seed": 20261021,
+      "alpha": 0.8,
+      "yield_ratio": 1.3957807471468782,
+      "E": 6431.774944921024,
+      "reason": "finite",
+      "start": 8369,
+      "length": 351,
+      "normalized_E": 6367.450151727709
+    },
+    {
+      "seed": 20261021,
+      "alpha": 0.9,
+      "yield_ratio": 1.3554628691811772,
+      "E": 21059.565743383107,
+      "reason": "finite",
+      "start": 7241,
+      "length": 2631,
+      "normalized_E": 15959.644162172
+    },
+    {
+      "seed": 20261021,
+      "alpha": 1.0,
+      "yield_ratio": 1.315144991215476,
+      "E": 68817.5142907989,
+      "reason": "finite",
+      "start": 6401,
+      "length": 4143,
+      "normalized_E": 57780.74095984084
+    },
+    {
+      "seed": 20261022,
+      "alpha": 0.0,
+      "yield_ratio": 1.8006073035630399,
+      "E": 57733.39746058064,
+      "reason": "finite",
+      "start": 4364,
+      "length": 2377,
+      "normalized_E": 89350.87454918023
+    },
+    {
+      "seed": 20261022,
+      "alpha": 0.1,
+      "yield_ratio": 1.751322351100052,
+      "E": 36452.59963332536,
+      "reason": "finite",
+      "start": 4364,
+      "length": 2377,
+      "normalized_E": 68546.0719448208
+    },
+    {
+      "seed": 20261022,
+      "alpha": 0.2,
+      "yield_ratio": 1.702037398637064,
+      "E": 20968.814611474547,
+      "reason": "finite",
+      "start": 5847,
+      "length": 895,
+      "normalized_E": 48763.84368001457
+    },
+    {
+      "seed": 20261022,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.6527524461740764,
+      "E": 14738.031331550766,
+      "reason": "finite",
+      "start": 5848,
+      "length": 633,
+      "normalized_E": 28925.332219923468
+    },
+    {
+      "seed": 20261022,
+      "alpha": 0.4,
+      "yield_ratio": 1.6034674937110884,
+      "E": 9888.373636383069,
+      "reason": "finite",
+      "start": 5849,
+      "length": 490,
+      "normalized_E": 17628.438605131378
+    },
+    {
+      "seed": 20261022,
+      "alpha": 0.5,
+      "yield_ratio": 1.5541825412481005,
+      "E": 8732.123046163399,
+      "reason": "finite",
+      "start": 401,
+      "length": 231,
+      "normalized_E": 10599.233894834528
+    },
+    {
+      "seed": 20261022,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.5048975887851128,
+      "E": 7811.054646974491,
+      "reason": "finite",
+      "start": 401,
+      "length": 231,
+      "normalized_E": 9000.238024184098
+    },
+    {
+      "seed": 20261022,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.455612636322125,
+      "E": 6955.045394478141,
+      "reason": "finite",
+      "start": 401,
+      "length": 231,
+      "normalized_E": 7584.048469186483
+    },
+    {
+      "seed": 20261022,
+      "alpha": 0.8,
+      "yield_ratio": 1.406327683859137,
+      "E": 6852.510730598995,
+      "reason": "finite",
+      "start": 8032,
+      "length": 947,
+      "normalized_E": 7192.262841030897
+    },
+    {
+      "seed": 20261022,
+      "alpha": 0.9,
+      "yield_ratio": 1.3570427313961493,
+      "E": 25913.99717257978,
+      "reason": "finite",
+      "start": 7337,
+      "length": 2175,
+      "normalized_E": 21624.651133201303
+    },
+    {
+      "seed": 20261022,
+      "alpha": 1.0,
+      "yield_ratio": 1.3077577789331614,
+      "E": 74275.05999422623,
+      "reason": "finite",
+      "start": 6737,
+      "length": 3806,
+      "normalized_E": 62130.097003523784
+    },
+    {
+      "seed": 20261023,
+      "alpha": 0.0,
+      "yield_ratio": 1.8317949045560613,
+      "E": 36061.95951079822,
+      "reason": "finite",
+      "start": 3943,
+      "length": 1399,
+      "normalized_E": 66438.25650195348
+    },
+    {
+      "seed": 20261023,
+      "alpha": 0.1,
+      "yield_ratio": 1.7789383306104254,
+      "E": 20865.98685531094,
+      "reason": "finite",
+      "start": 4479,
+      "length": 861,
+      "normalized_E": 45265.93659208958
+    },
+    {
+      "seed": 20261023,
+      "alpha": 0.2,
+      "yield_ratio": 1.7260817566647892,
+      "E": 13575.9809023228,
+      "reason": "finite",
+      "start": 8321,
+      "length": 199,
+      "normalized_E": 25079.42388283994
+    },
+    {
+      "seed": 20261023,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.6732251827191527,
+      "E": 12040.098092243948,
+      "reason": "finite",
+      "start": 8321,
+      "length": 199,
+      "normalized_E": 14377.155640487501
+    },
+    {
+      "seed": 20261023,
+      "alpha": 0.4,
+      "yield_ratio": 1.6203686087735167,
+      "E": 10665.585495089297,
+      "reason": "finite",
+      "start": 8321,
+      "length": 207,
+      "normalized_E": 12900.589106138155
+    },
+    {
+      "seed": 20261023,
+      "alpha": 0.5,
+      "yield_ratio": 1.5675120348278806,
+      "E": 9408.638567194168,
+      "reason": "finite",
+      "start": 8321,
+      "length": 207,
+      "normalized_E": 11543.428384822095
+    },
+    {
+      "seed": 20261023,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.5146554608822445,
+      "E": 8370.029912731261,
+      "reason": "finite",
+      "start": 8224,
+      "length": 304,
+      "normalized_E": 10172.937742140726
+    },
+    {
+      "seed": 20261023,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.461798886936608,
+      "E": 7761.027699124825,
+      "reason": "finite",
+      "start": 8224,
+      "length": 304,
+      "normalized_E": 8757.336624248943
+    },
+    {
+      "seed": 20261023,
+      "alpha": 0.8,
+      "yield_ratio": 1.4089423129909722,
+      "E": 8246.476623744384,
+      "reason": "finite",
+      "start": 8057,
+      "length": 471,
+      "normalized_E": 8467.778944715596
+    },
+    {
+      "seed": 20261023,
+      "alpha": 0.9,
+      "yield_ratio": 1.3560857390453356,
+      "E": 30240.12373661349,
+      "reason": "finite",
+      "start": 7073,
+      "length": 2799,
+      "normalized_E": 24675.008759218617
+    },
+    {
+      "seed": 20261023,
+      "alpha": 1.0,
+      "yield_ratio": 1.3032291650996997,
+      "E": 75042.16585843878,
+      "reason": "finite",
+      "start": 6713,
+      "length": 3902,
+      "normalized_E": 62728.898258215915
+    },
+    {
+      "seed": 20261024,
+      "alpha": 0.0,
+      "yield_ratio": 1.7843190667479087,
+      "E": 46304.91986106061,
+      "reason": "finite",
+      "start": 4020,
+      "length": 2196,
+      "normalized_E": 71382.82765731451
+    },
+    {
+      "seed": 20261024,
+      "alpha": 0.1,
+      "yield_ratio": 1.735342659708975,
+      "E": 25044.986615203758,
+      "reason": "finite",
+      "start": 4023,
+      "length": 2193,
+      "normalized_E": 52208.35218849959
+    },
+    {
+      "seed": 20261024,
+      "alpha": 0.2,
+      "yield_ratio": 1.6863662526700411,
+      "E": 16847.659462988275,
+      "reason": "finite",
+      "start": 2824,
+      "length": 307,
+      "normalized_E": 32579.041525536493
+    },
+    {
+      "seed": 20261024,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.6373898456311071,
+      "E": 12568.652382211862,
+      "reason": "finite",
+      "start": 2825,
+      "length": 304,
+      "normalized_E": 16631.700562298938
+    },
+    {
+      "seed": 20261024,
+      "alpha": 0.4,
+      "yield_ratio": 1.5884134385921735,
+      "E": 8612.926620592742,
+      "reason": "finite",
+      "start": 2849,
+      "length": 280,
+      "normalized_E": 10965.858621780499
+    },
+    {
+      "seed": 20261024,
+      "alpha": 0.5,
+      "yield_ratio": 1.5394370315532395,
+      "E": 5763.5051932968345,
+      "reason": "finite",
+      "start": 410,
+      "length": 120,
+      "normalized_E": 6845.509395606743
+    },
+    {
+      "seed": 20261024,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.490460624514306,
+      "E": 5041.364863504231,
+      "reason": "finite",
+      "start": 424,
+      "length": 107,
+      "normalized_E": 5564.797993908171
+    },
+    {
+      "seed": 20261024,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.441484217475372,
+      "E": 4354.5206777454005,
+      "reason": "finite",
+      "start": 424,
+      "length": 107,
+      "normalized_E": 4648.943332090159
+    },
+    {
+      "seed": 20261024,
+      "alpha": 0.8,
+      "yield_ratio": 1.3925078104364386,
+      "E": 4079.9650661527335,
+      "reason": "finite",
+      "start": 353,
+      "length": 180,
+      "normalized_E": 4019.098584126886
+    },
+    {
+      "seed": 20261024,
+      "alpha": 0.9,
+      "yield_ratio": 1.343531403397505,
+      "E": 20339.790995427204,
+      "reason": "finite",
+      "start": 7121,
+      "length": 3015,
+      "normalized_E": 13086.98269662459
+    },
+    {
+      "seed": 20261024,
+      "alpha": 1.0,
+      "yield_ratio": 1.294554996358571,
+      "E": 73113.04044387469,
+      "reason": "finite",
+      "start": 6713,
+      "length": 3686,
+      "normalized_E": 60054.34550571716
+    },
+    {
+      "seed": 20261025,
+      "alpha": 0.0,
+      "yield_ratio": 1.8031494020924184,
+      "E": 19378.579637289033,
+      "reason": "finite",
+      "start": 3480,
+      "length": 849,
+      "normalized_E": 30587.75951775059
+    },
+    {
+      "seed": 20261025,
+      "alpha": 0.1,
+      "yield_ratio": 1.7546134465247791,
+      "E": 15931.288087499106,
+      "reason": "finite",
+      "start": 1035,
+      "length": 202,
+      "normalized_E": 22294.991558836766
+    },
+    {
+      "seed": 20261025,
+      "alpha": 0.2,
+      "yield_ratio": 1.7060774909571401,
+      "E": 13673.048761588005,
+      "reason": "finite",
+      "start": 1035,
+      "length": 200,
+      "normalized_E": 16404.320428753243
+    },
+    {
+      "seed": 20261025,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.6575415353895007,
+      "E": 11910.350957882067,
+      "reason": "finite",
+      "start": 8300,
+      "length": 303,
+      "normalized_E": 14940.033569203108
+    },
+    {
+      "seed": 20261025,
+      "alpha": 0.4,
+      "yield_ratio": 1.6090055798218617,
+      "E": 10877.796900160785,
+      "reason": "finite",
+      "start": 8300,
+      "length": 302,
+      "normalized_E": 13476.380100630515
+    },
+    {
+      "seed": 20261025,
+      "alpha": 0.5,
+      "yield_ratio": 1.5604696242542226,
+      "E": 9972.37144963158,
+      "reason": "finite",
+      "start": 8300,
+      "length": 301,
+      "normalized_E": 12067.606829589611
+    },
+    {
+      "seed": 20261025,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.5119336686865836,
+      "E": 9103.762520208606,
+      "reason": "finite",
+      "start": 8300,
+      "length": 301,
+      "normalized_E": 10696.269480381685
+    },
+    {
+      "seed": 20261025,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.463397713118944,
+      "E": 8356.983752759232,
+      "reason": "finite",
+      "start": 8299,
+      "length": 302,
+      "normalized_E": 9795.518516480253
+    },
+    {
+      "seed": 20261025,
+      "alpha": 0.8,
+      "yield_ratio": 1.414861757551305,
+      "E": 9537.112859924062,
+      "reason": "finite",
+      "start": 7985,
+      "length": 616,
+      "normalized_E": 9992.924831727782
+    },
+    {
+      "seed": 20261025,
+      "alpha": 0.9,
+      "yield_ratio": 1.366325801983666,
+      "E": 25262.841390097892,
+      "reason": "finite",
+      "start": 7577,
+      "length": 2391,
+      "normalized_E": 21608.523244899523
+    },
+    {
+      "seed": 20261025,
+      "alpha": 1.0,
+      "yield_ratio": 1.317789846416027,
+      "E": 67862.79253073651,
+      "reason": "finite",
+      "start": 6377,
+      "length": 4191,
+      "normalized_E": 57189.004439784454
+    },
+    {
+      "seed": 20261026,
+      "alpha": 0.0,
+      "yield_ratio": 1.6751790357739005,
+      "E": 30708.673715927565,
+      "reason": "finite",
+      "start": 3994,
+      "length": 1502,
+      "normalized_E": 59760.63551209807
+    },
+    {
+      "seed": 20261026,
+      "alpha": 0.1,
+      "yield_ratio": 1.6379688003536863,
+      "E": 15934.23501308536,
+      "reason": "finite",
+      "start": 32,
+      "length": 214,
+      "normalized_E": 32723.753501194777
+    },
+    {
+      "seed": 20261026,
+      "alpha": 0.2,
+      "yield_ratio": 1.6007585649334721,
+      "E": 14416.50933935948,
+      "reason": "finite",
+      "start": 31,
+      "length": 216,
+      "normalized_E": 16702.14981856337
+    },
+    {
+      "seed": 20261026,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.563548329513258,
+      "E": 12952.893322137788,
+      "reason": "finite",
+      "start": 31,
+      "length": 216,
+      "normalized_E": 14273.789414630766
+    },
+    {
+      "seed": 20261026,
+      "alpha": 0.4,
+      "yield_ratio": 1.5263380940930438,
+      "E": 11627.444131120948,
+      "reason": "finite",
+      "start": 40,
+      "length": 207,
+      "normalized_E": 12862.926816994936
+    },
+    {
+      "seed": 20261026,
+      "alpha": 0.5,
+      "yield_ratio": 1.4891278586728296,
+      "E": 10467.46895284485,
+      "reason": "finite",
+      "start": 7912,
+      "length": 257,
+      "normalized_E": 11520.611969264224
+    },
+    {
+      "seed": 20261026,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4519176232526154,
+      "E": 9505.56879696803,
+      "reason": "finite",
+      "start": 7913,
+      "length": 256,
+      "normalized_E": 10164.701767868304
+    },
+    {
+      "seed": 20261026,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.414707387832401,
+      "E": 8574.807170389366,
+      "reason": "finite",
+      "start": 7913,
+      "length": 256,
+      "normalized_E": 8771.47619260702
+    },
+    {
+      "seed": 20261026,
+      "alpha": 0.8,
+      "yield_ratio": 1.3774971524121868,
+      "E": 12593.733659746038,
+      "reason": "finite",
+      "start": 8416,
+      "length": 1310,
+      "normalized_E": 10995.505123266194
+    },
+    {
+      "seed": 20261026,
+      "alpha": 0.9,
+      "yield_ratio": 1.3402869169919729,
+      "E": 28648.656622778013,
+      "reason": "finite",
+      "start": 7577,
+      "length": 2151,
+      "normalized_E": 22886.506197591545
+    },
+    {
+      "seed": 20261026,
+      "alpha": 1.0,
+      "yield_ratio": 1.3030766815717587,
+      "E": 74183.41864325183,
+      "reason": "finite",
+      "start": 6545,
+      "length": 4142,
+      "normalized_E": 61692.43621424919
+    },
+    {
+      "seed": 20261027,
+      "alpha": 0.0,
+      "yield_ratio": 1.7105408357601402,
+      "E": 25730.099520853102,
+      "reason": "finite",
+      "start": 1808,
+      "length": 859,
+      "normalized_E": 54339.29015316063
+    },
+    {
+      "seed": 20261027,
+      "alpha": 0.1,
+      "yield_ratio": 1.6678941058376051,
+      "E": 20681.300263157944,
+      "reason": "finite",
+      "start": 2344,
+      "length": 323,
+      "normalized_E": 31563.509676797796
+    },
+    {
+      "seed": 20261027,
+      "alpha": 0.2,
+      "yield_ratio": 1.62524737591507,
+      "E": 16581.463119056774,
+      "reason": "finite",
+      "start": 2344,
+      "length": 323,
+      "normalized_E": 18997.317103829373
+    },
+    {
+      "seed": 20261027,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.582600645992535,
+      "E": 12691.246359518555,
+      "reason": "finite",
+      "start": 2345,
+      "length": 323,
+      "normalized_E": 15343.072810375219
+    },
+    {
+      "seed": 20261027,
+      "alpha": 0.4,
+      "yield_ratio": 1.5399539160700004,
+      "E": 9603.367062998557,
+      "reason": "finite",
+      "start": 7529,
+      "length": 568,
+      "normalized_E": 13644.317255838774
+    },
+    {
+      "seed": 20261027,
+      "alpha": 0.5,
+      "yield_ratio": 1.4973071861474654,
+      "E": 9138.537252731796,
+      "reason": "finite",
+      "start": 7529,
+      "length": 568,
+      "normalized_E": 12213.734567694453
+    },
+    {
+      "seed": 20261027,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4546604562249303,
+      "E": 9190.791859800229,
+      "reason": "finite",
+      "start": 7529,
+      "length": 567,
+      "normalized_E": 10972.849145187938
+    },
+    {
+      "seed": 20261027,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4120137263023957,
+      "E": 9643.60256919841,
+      "reason": "finite",
+      "start": 7529,
+      "length": 567,
+      "normalized_E": 10016.365844695421
+    },
+    {
+      "seed": 20261027,
+      "alpha": 0.8,
+      "yield_ratio": 1.3693669963798607,
+      "E": 10693.874591872125,
+      "reason": "finite",
+      "start": 7529,
+      "length": 567,
+      "normalized_E": 9864.914788527996
+    },
+    {
+      "seed": 20261027,
+      "alpha": 0.9,
+      "yield_ratio": 1.3267202664573257,
+      "E": 30087.080467748907,
+      "reason": "finite",
+      "start": 6953,
+      "length": 2919,
+      "normalized_E": 20195.018137835854
+    },
+    {
+      "seed": 20261027,
+      "alpha": 1.0,
+      "yield_ratio": 1.2840735365347906,
+      "E": 73020.91700620583,
+      "reason": "finite",
+      "start": 6401,
+      "length": 4166,
+      "normalized_E": 57766.03123401575
+    },
+    {
+      "seed": 20261028,
+      "alpha": 0.0,
+      "yield_ratio": 1.8048951944014704,
+      "E": 22891.5755430982,
+      "reason": "finite",
+      "start": 391,
+      "length": 590,
+      "normalized_E": 32489.843301145404
+    },
+    {
+      "seed": 20261028,
+      "alpha": 0.1,
+      "yield_ratio": 1.7543168600004713,
+      "E": 20104.797788190284,
+      "reason": "finite",
+      "start": 381,
+      "length": 600,
+      "normalized_E": 28140.22699803665
+    },
+    {
+      "seed": 20261028,
+      "alpha": 0.2,
+      "yield_ratio": 1.703738525599472,
+      "E": 17593.433002862148,
+      "reason": "finite",
+      "start": 7479,
+      "length": 322,
+      "normalized_E": 25134.879528956648
+    },
+    {
+      "seed": 20261028,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.6531601911984726,
+      "E": 15790.500652311195,
+      "reason": "finite",
+      "start": 7479,
+      "length": 322,
+      "normalized_E": 22085.700002794758
+    },
+    {
+      "seed": 20261028,
+      "alpha": 0.4,
+      "yield_ratio": 1.6025818567974734,
+      "E": 14156.071204122214,
+      "reason": "finite",
+      "start": 7479,
+      "length": 329,
+      "normalized_E": 19198.98379918284
+    },
+    {
+      "seed": 20261028,
+      "alpha": 0.5,
+      "yield_ratio": 1.5520035223964743,
+      "E": 12703.386442884977,
+      "reason": "finite",
+      "start": 7480,
+      "length": 328,
+      "normalized_E": 16752.393131368444
+    },
+    {
+      "seed": 20261028,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.501425187995475,
+      "E": 11324.555754559056,
+      "reason": "finite",
+      "start": 7480,
+      "length": 328,
+      "normalized_E": 14262.59846062552
+    },
+    {
+      "seed": 20261028,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4508468535944756,
+      "E": 10128.428160437483,
+      "reason": "finite",
+      "start": 379,
+      "length": 589,
+      "normalized_E": 11863.551521138459
+    },
+    {
+      "seed": 20261028,
+      "alpha": 0.8,
+      "yield_ratio": 1.4002685191934765,
+      "E": 10238.898925023654,
+      "reason": "finite",
+      "start": 377,
+      "length": 591,
+      "normalized_E": 10246.82337488761
+    },
+    {
+      "seed": 20261028,
+      "alpha": 0.9,
+      "yield_ratio": 1.3496901847924772,
+      "E": 28588.413314177073,
+      "reason": "finite",
+      "start": 7457,
+      "length": 2271,
+      "normalized_E": 23339.086941675385
+    },
+    {
+      "seed": 20261028,
+      "alpha": 1.0,
+      "yield_ratio": 1.299111850391478,
+      "E": 74275.02577632484,
+      "reason": "finite",
+      "start": 6474,
+      "length": 4237,
+      "normalized_E": 59801.99986265427
+    },
+    {
+      "seed": 20261029,
+      "alpha": 0.0,
+      "yield_ratio": 1.7909309271174527,
+      "E": 16216.523236232359,
+      "reason": "finite",
+      "start": 2822,
+      "length": 255,
+      "normalized_E": 36153.187142136856
+    },
+    {
+      "seed": 20261029,
+      "alpha": 0.1,
+      "yield_ratio": 1.7435718908534952,
+      "E": 12991.222534289322,
+      "reason": "finite",
+      "start": 2822,
+      "length": 255,
+      "normalized_E": 19467.752229439706
+    },
+    {
+      "seed": 20261029,
+      "alpha": 0.2,
+      "yield_ratio": 1.6962128545895374,
+      "E": 9857.232046803314,
+      "reason": "finite",
+      "start": 2823,
+      "length": 254,
+      "normalized_E": 16281.748377448763
+    },
+    {
+      "seed": 20261029,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.6488538183255794,
+      "E": 8013.25878776575,
+      "reason": "finite",
+      "start": 7502,
+      "length": 284,
+      "normalized_E": 13679.940811492881
+    },
+    {
+      "seed": 20261029,
+      "alpha": 0.4,
+      "yield_ratio": 1.6014947820616219,
+      "E": 7251.417098689359,
+      "reason": "finite",
+      "start": 7502,
+      "length": 284,
+      "normalized_E": 11344.524307615386
+    },
+    {
+      "seed": 20261029,
+      "alpha": 0.5,
+      "yield_ratio": 1.5541357457976641,
+      "E": 6649.597485010687,
+      "reason": "finite",
+      "start": 7483,
+      "length": 302,
+      "normalized_E": 9813.321051842096
+    },
+    {
+      "seed": 20261029,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.5067767095337061,
+      "E": 6329.317657205567,
+      "reason": "finite",
+      "start": 7483,
+      "length": 302,
+      "normalized_E": 8770.282955269417
+    },
+    {
+      "seed": 20261029,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4594176732697486,
+      "E": 6266.064459146233,
+      "reason": "finite",
+      "start": 7313,
+      "length": 472,
+      "normalized_E": 7958.934013963619
+    },
+    {
+      "seed": 20261029,
+      "alpha": 0.8,
+      "yield_ratio": 1.4120586370057908,
+      "E": 7651.682866365591,
+      "reason": "finite",
+      "start": 7121,
+      "length": 664,
+      "normalized_E": 8072.421931870951
+    },
+    {
+      "seed": 20261029,
+      "alpha": 0.9,
+      "yield_ratio": 1.364699600741833,
+      "E": 24843.073819740064,
+      "reason": "finite",
+      "start": 6905,
+      "length": 2751,
+      "normalized_E": 20545.298105576105
+    },
+    {
+      "seed": 20261029,
+      "alpha": 1.0,
+      "yield_ratio": 1.3173405644778753,
+      "E": 72613.90238088802,
+      "reason": "finite",
+      "start": 6617,
+      "length": 3878,
+      "normalized_E": 61488.54858643212
+    },
+    {
+      "seed": 20261030,
+      "alpha": 0.0,
+      "yield_ratio": 1.7531722663123126,
+      "E": 22677.0404313287,
+      "reason": "finite",
+      "start": 3660,
+      "length": 1139,
+      "normalized_E": 36584.69328539265
+    },
+    {
+      "seed": 20261030,
+      "alpha": 0.1,
+      "yield_ratio": 1.708428708376642,
+      "E": 18264.917374271434,
+      "reason": "finite",
+      "start": 7289,
+      "length": 449,
+      "normalized_E": 24899.706129008875
+    },
+    {
+      "seed": 20261030,
+      "alpha": 0.2,
+      "yield_ratio": 1.6636851504409724,
+      "E": 15803.55355068366,
+      "reason": "finite",
+      "start": 7289,
+      "length": 449,
+      "normalized_E": 20010.04410718428
+    },
+    {
+      "seed": 20261030,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.6189415925053023,
+      "E": 13623.221117723675,
+      "reason": "finite",
+      "start": 7289,
+      "length": 448,
+      "normalized_E": 17223.177510049776
+    },
+    {
+      "seed": 20261030,
+      "alpha": 0.4,
+      "yield_ratio": 1.5741980345696323,
+      "E": 11637.876211067254,
+      "reason": "finite",
+      "start": 7289,
+      "length": 448,
+      "normalized_E": 14818.787817497068
+    },
+    {
+      "seed": 20261030,
+      "alpha": 0.5,
+      "yield_ratio": 1.5294544766339624,
+      "E": 9943.52024256601,
+      "reason": "finite",
+      "start": 7506,
+      "length": 231,
+      "normalized_E": 12615.322291031858
+    },
+    {
+      "seed": 20261030,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4847109186982923,
+      "E": 8572.74998828693,
+      "reason": "finite",
+      "start": 7289,
+      "length": 448,
+      "normalized_E": 10488.861379039474
+    },
+    {
+      "seed": 20261030,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4399673607626222,
+      "E": 7410.27023141543,
+      "reason": "finite",
+      "start": 7289,
+      "length": 448,
+      "normalized_E": 8627.122803244478
+    },
+    {
+      "seed": 20261030,
+      "alpha": 0.8,
+      "yield_ratio": 1.3952238028269521,
+      "E": 14696.616405589448,
+      "reason": "finite",
+      "start": 7289,
+      "length": 2248,
+      "normalized_E": 14137.754498252092
+    },
+    {
+      "seed": 20261030,
+      "alpha": 0.9,
+      "yield_ratio": 1.3504802448912823,
+      "E": 35220.23080512535,
+      "reason": "finite",
+      "start": 6953,
+      "length": 2583,
+      "normalized_E": 29581.474473202834
+    },
+    {
+      "seed": 20261030,
+      "alpha": 1.0,
+      "yield_ratio": 1.3057366869556124,
+      "E": 73998.19639225063,
+      "reason": "finite",
+      "start": 6402,
+      "length": 4142,
+      "normalized_E": 60818.8337052541
+    },
+    {
+      "seed": 20261031,
+      "alpha": 0.0,
+      "yield_ratio": 1.7683232914001248,
+      "E": 48230.76513729986,
+      "reason": "finite",
+      "start": 1955,
+      "length": 1982,
+      "normalized_E": 76279.65826216382
+    },
+    {
+      "seed": 20261031,
+      "alpha": 0.1,
+      "yield_ratio": 1.721315851453065,
+      "E": 28643.88437829115,
+      "reason": "finite",
+      "start": 1956,
+      "length": 1982,
+      "normalized_E": 52320.69531692759
+    },
+    {
+      "seed": 20261031,
+      "alpha": 0.2,
+      "yield_ratio": 1.6743084115060054,
+      "E": 14299.947510979167,
+      "reason": "finite",
+      "start": 5610,
+      "length": 300,
+      "normalized_E": 33729.49724104753
+    },
+    {
+      "seed": 20261031,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.627300971558946,
+      "E": 11993.56018497072,
+      "reason": "finite",
+      "start": 335,
+      "length": 368,
+      "normalized_E": 16704.846119664122
+    },
+    {
+      "seed": 20261031,
+      "alpha": 0.4,
+      "yield_ratio": 1.580293531611886,
+      "E": 10490.71023128735,
+      "reason": "finite",
+      "start": 334,
+      "length": 369,
+      "normalized_E": 13381.789481248732
+    },
+    {
+      "seed": 20261031,
+      "alpha": 0.5,
+      "yield_ratio": 1.5332860916648265,
+      "E": 9354.356367322674,
+      "reason": "finite",
+      "start": 331,
+      "length": 372,
+      "normalized_E": 11887.066961830184
+    },
+    {
+      "seed": 20261031,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4862786517177669,
+      "E": 8667.912524336145,
+      "reason": "finite",
+      "start": 329,
+      "length": 374,
+      "normalized_E": 10416.44524547494
+    },
+    {
+      "seed": 20261031,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4392712117707072,
+      "E": 8152.102435247389,
+      "reason": "finite",
+      "start": 329,
+      "length": 374,
+      "normalized_E": 8969.781987363991
+    },
+    {
+      "seed": 20261031,
+      "alpha": 0.8,
+      "yield_ratio": 1.3922637718236475,
+      "E": 8010.535763306556,
+      "reason": "finite",
+      "start": 329,
+      "length": 375,
+      "normalized_E": 7866.980173950711
+    },
+    {
+      "seed": 20261031,
+      "alpha": 0.9,
+      "yield_ratio": 1.345256331876588,
+      "E": 22301.151517837527,
+      "reason": "finite",
+      "start": 6881,
+      "length": 3183,
+      "normalized_E": 14116.103174324307
+    },
+    {
+      "seed": 20261031,
+      "alpha": 1.0,
+      "yield_ratio": 1.2982488919295283,
+      "E": 75932.5947801326,
+      "reason": "finite",
+      "start": 6354,
+      "length": 4358,
+      "normalized_E": 62284.568578290025
+    },
+    {
+      "seed": 20261032,
+      "alpha": 0.0,
+      "yield_ratio": 1.5590707980748515,
+      "E": 55181.683297670286,
+      "reason": "finite",
+      "start": 2881,
+      "length": 1078,
+      "normalized_E": 62631.08921330069
+    },
+    {
+      "seed": 20261032,
+      "alpha": 0.1,
+      "yield_ratio": 1.5346761767827546,
+      "E": 41236.933258502264,
+      "reason": "finite",
+      "start": 2881,
+      "length": 1081,
+      "normalized_E": 46087.26651481112
+    },
+    {
+      "seed": 20261032,
+      "alpha": 0.2,
+      "yield_ratio": 1.5102815554906577,
+      "E": 27666.45255143603,
+      "reason": "finite",
+      "start": 2881,
+      "length": 1081,
+      "normalized_E": 32578.65156416426
+    },
+    {
+      "seed": 20261032,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.4858869341985605,
+      "E": 15831.452583668164,
+      "reason": "finite",
+      "start": 2881,
+      "length": 747,
+      "normalized_E": 19358.040239870803
+    },
+    {
+      "seed": 20261032,
+      "alpha": 0.4,
+      "yield_ratio": 1.4614923129064639,
+      "E": 13533.558871990888,
+      "reason": "finite",
+      "start": 15,
+      "length": 234,
+      "normalized_E": 14063.980347415029
+    },
+    {
+      "seed": 20261032,
+      "alpha": 0.5,
+      "yield_ratio": 1.437097691614367,
+      "E": 11906.564274599346,
+      "reason": "finite",
+      "start": 16,
+      "length": 233,
+      "normalized_E": 12268.068831917832
+    },
+    {
+      "seed": 20261032,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4127030703222696,
+      "E": 10330.002761345506,
+      "reason": "finite",
+      "start": 16,
+      "length": 232,
+      "normalized_E": 10463.52605563657
+    },
+    {
+      "seed": 20261032,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.388308449030173,
+      "E": 8841.20592338887,
+      "reason": "finite",
+      "start": 16,
+      "length": 232,
+      "normalized_E": 8713.835765687903
+    },
+    {
+      "seed": 20261032,
+      "alpha": 0.8,
+      "yield_ratio": 1.3639138277380758,
+      "E": 8047.809720785648,
+      "reason": "finite",
+      "start": 8152,
+      "length": 856,
+      "normalized_E": 7348.2616215395865
+    },
+    {
+      "seed": 20261032,
+      "alpha": 0.9,
+      "yield_ratio": 1.3395192064459789,
+      "E": 26933.13124778682,
+      "reason": "finite",
+      "start": 7240,
+      "length": 2368,
+      "normalized_E": 20592.60345326143
+    },
+    {
+      "seed": 20261032,
+      "alpha": 1.0,
+      "yield_ratio": 1.3151245851538822,
+      "E": 65827.8252497922,
+      "reason": "finite",
+      "start": 6378,
+      "length": 4309,
+      "normalized_E": 55217.76219606318
+    },
+    {
+      "seed": 20261033,
+      "alpha": 0.0,
+      "yield_ratio": 1.6088922811974349,
+      "E": 44745.5132106269,
+      "reason": "finite",
+      "start": 3327,
+      "length": 1186,
+      "normalized_E": 58238.43082828843
+    },
+    {
+      "seed": 20261033,
+      "alpha": 0.1,
+      "yield_ratio": 1.578947620035025,
+      "E": 31040.40295376067,
+      "reason": "finite",
+      "start": 3328,
+      "length": 999,
+      "normalized_E": 35991.56788557068
+    },
+    {
+      "seed": 20261033,
+      "alpha": 0.2,
+      "yield_ratio": 1.5490029588726146,
+      "E": 17998.935541554267,
+      "reason": "finite",
+      "start": 3329,
+      "length": 998,
+      "normalized_E": 23252.013940306017
+    },
+    {
+      "seed": 20261033,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.5190582977102043,
+      "E": 12082.766780858277,
+      "reason": "finite",
+      "start": 7504,
+      "length": 375,
+      "normalized_E": 14038.340340123716
+    },
+    {
+      "seed": 20261033,
+      "alpha": 0.4,
+      "yield_ratio": 1.4891136365477942,
+      "E": 10923.534582774795,
+      "reason": "finite",
+      "start": 7504,
+      "length": 375,
+      "normalized_E": 12490.851459209021
+    },
+    {
+      "seed": 20261033,
+      "alpha": 0.5,
+      "yield_ratio": 1.4591689753853838,
+      "E": 9916.581364253187,
+      "reason": "finite",
+      "start": 7504,
+      "length": 376,
+      "normalized_E": 11049.924506971001
+    },
+    {
+      "seed": 20261033,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4292243142229735,
+      "E": 9087.13321684426,
+      "reason": "finite",
+      "start": 7504,
+      "length": 376,
+      "normalized_E": 9660.27705860784
+    },
+    {
+      "seed": 20261033,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.3992796530605633,
+      "E": 8408.47589024721,
+      "reason": "finite",
+      "start": 7504,
+      "length": 376,
+      "normalized_E": 8393.814646233252
+    },
+    {
+      "seed": 20261033,
+      "alpha": 0.8,
+      "yield_ratio": 1.369334991898153,
+      "E": 8102.938952902099,
+      "reason": "finite",
+      "start": 7504,
+      "length": 376,
+      "normalized_E": 7528.15308598784
+    },
+    {
+      "seed": 20261033,
+      "alpha": 0.9,
+      "yield_ratio": 1.339390330735743,
+      "E": 24149.747699287473,
+      "reason": "finite",
+      "start": 7121,
+      "length": 3087,
+      "normalized_E": 16355.526165998934
+    },
+    {
+      "seed": 20261033,
+      "alpha": 1.0,
+      "yield_ratio": 1.3094456695733327,
+      "E": 68472.39546161541,
+      "reason": "finite",
+      "start": 6497,
+      "length": 3878,
+      "normalized_E": 57562.69965692386
+    },
+    {
+      "seed": 20261034,
+      "alpha": 0.0,
+      "yield_ratio": 1.5916776710410578,
+      "E": 39188.853365778064,
+      "reason": "finite",
+      "start": 277,
+      "length": 1097,
+      "normalized_E": 49904.208134315726
+    },
+    {
+      "seed": 20261034,
+      "alpha": 0.1,
+      "yield_ratio": 1.5668550614521635,
+      "E": 32692.89631351272,
+      "reason": "finite",
+      "start": 277,
+      "length": 1097,
+      "normalized_E": 39783.28055624153
+    },
+    {
+      "seed": 20261034,
+      "alpha": 0.2,
+      "yield_ratio": 1.542032451863269,
+      "E": 26713.543293304676,
+      "reason": "finite",
+      "start": 278,
+      "length": 1096,
+      "normalized_E": 33595.163416893556
+    },
+    {
+      "seed": 20261034,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.5172098422743745,
+      "E": 21324.439325783394,
+      "reason": "finite",
+      "start": 279,
+      "length": 1095,
+      "normalized_E": 27598.674587444428
+    },
+    {
+      "seed": 20261034,
+      "alpha": 0.4,
+      "yield_ratio": 1.4923872326854801,
+      "E": 17005.334799104858,
+      "reason": "finite",
+      "start": 279,
+      "length": 464,
+      "normalized_E": 22088.910281161414
+    },
+    {
+      "seed": 20261034,
+      "alpha": 0.5,
+      "yield_ratio": 1.4675646230965858,
+      "E": 14360.004909613443,
+      "reason": "finite",
+      "start": 280,
+      "length": 449,
+      "normalized_E": 17302.33579173776
+    },
+    {
+      "seed": 20261034,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4427420135076916,
+      "E": 11972.670792168585,
+      "reason": "finite",
+      "start": 280,
+      "length": 449,
+      "normalized_E": 13316.528747209071
+    },
+    {
+      "seed": 20261034,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4179194039187968,
+      "E": 9942.859736100661,
+      "reason": "finite",
+      "start": 280,
+      "length": 449,
+      "normalized_E": 10393.33536234304
+    },
+    {
+      "seed": 20261034,
+      "alpha": 0.8,
+      "yield_ratio": 1.3930967943299029,
+      "E": 9489.679702036925,
+      "reason": "finite",
+      "start": 280,
+      "length": 1095,
+      "normalized_E": 9141.623292122058
+    },
+    {
+      "seed": 20261034,
+      "alpha": 0.9,
+      "yield_ratio": 1.3682741847410083,
+      "E": 23744.77495349417,
+      "reason": "finite",
+      "start": 7001,
+      "length": 3135,
+      "normalized_E": 19763.128429697535
+    },
+    {
+      "seed": 20261034,
+      "alpha": 1.0,
+      "yield_ratio": 1.3434515751521139,
+      "E": 66852.01584524845,
+      "reason": "finite",
+      "start": 6546,
+      "length": 4117,
+      "normalized_E": 59365.849780825825
+    },
+    {
+      "seed": 20261035,
+      "alpha": 0.0,
+      "yield_ratio": 1.7720880735701836,
+      "E": 31087.927426415758,
+      "reason": "finite",
+      "start": 1650,
+      "length": 1498,
+      "normalized_E": 60944.54138544094
+    },
+    {
+      "seed": 20261035,
+      "alpha": 0.1,
+      "yield_ratio": 1.7271071170982844,
+      "E": 19482.4886818229,
+      "reason": "finite",
+      "start": 1650,
+      "length": 1499,
+      "normalized_E": 38736.8286643156
+    },
+    {
+      "seed": 20261035,
+      "alpha": 0.2,
+      "yield_ratio": 1.6821261606263853,
+      "E": 17330.601013695123,
+      "reason": "finite",
+      "start": 8073,
+      "length": 264,
+      "normalized_E": 27762.99929669973
+    },
+    {
+      "seed": 20261035,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.6371452041544856,
+      "E": 15605.857763633016,
+      "reason": "finite",
+      "start": 8076,
+      "length": 260,
+      "normalized_E": 17598.185961558018
+    },
+    {
+      "seed": 20261035,
+      "alpha": 0.4,
+      "yield_ratio": 1.5921642476825861,
+      "E": 14044.435279283673,
+      "reason": "finite",
+      "start": 8079,
+      "length": 257,
+      "normalized_E": 15819.672227592993
+    },
+    {
+      "seed": 20261035,
+      "alpha": 0.5,
+      "yield_ratio": 1.5471832912106869,
+      "E": 12552.42451514036,
+      "reason": "finite",
+      "start": 8080,
+      "length": 256,
+      "normalized_E": 14076.54483018245
+    },
+    {
+      "seed": 20261035,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.5022023347387874,
+      "E": 11135.11057847325,
+      "reason": "finite",
+      "start": 8080,
+      "length": 256,
+      "normalized_E": 12281.17490359809
+    },
+    {
+      "seed": 20261035,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.457221378266888,
+      "E": 9807.00626970164,
+      "reason": "finite",
+      "start": 8080,
+      "length": 256,
+      "normalized_E": 10458.046880427108
+    },
+    {
+      "seed": 20261035,
+      "alpha": 0.8,
+      "yield_ratio": 1.4122404217949882,
+      "E": 9008.029689399817,
+      "reason": "finite",
+      "start": 8008,
+      "length": 328,
+      "normalized_E": 9196.57369860381
+    },
+    {
+      "seed": 20261035,
+      "alpha": 0.9,
+      "yield_ratio": 1.3672594653230892,
+      "E": 16824.89965633575,
+      "reason": "finite",
+      "start": 7049,
+      "length": 2439,
+      "normalized_E": 13204.610777312744
+    },
+    {
+      "seed": 20261035,
+      "alpha": 1.0,
+      "yield_ratio": 1.3222785088511895,
+      "E": 65662.12990537852,
+      "reason": "finite",
+      "start": 6713,
+      "length": 3830,
+      "normalized_E": 56064.821473601776
+    },
+    {
+      "seed": 20261036,
+      "alpha": 0.0,
+      "yield_ratio": 1.7143389724811595,
+      "E": 64512.844127804114,
+      "reason": "finite",
+      "start": 3382,
+      "length": 2348,
+      "normalized_E": 91242.11719834343
+    },
+    {
+      "seed": 20261036,
+      "alpha": 0.1,
+      "yield_ratio": 1.6741561523029538,
+      "E": 38245.52057236212,
+      "reason": "finite",
+      "start": 3381,
+      "length": 2342,
+      "normalized_E": 64266.059481515564
+    },
+    {
+      "seed": 20261036,
+      "alpha": 0.2,
+      "yield_ratio": 1.6339733321247474,
+      "E": 14740.921413314936,
+      "reason": "finite",
+      "start": 5187,
+      "length": 535,
+      "normalized_E": 38827.7176027355
+    },
+    {
+      "seed": 20261036,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.593790511946541,
+      "E": 10703.340129926546,
+      "reason": "finite",
+      "start": 615,
+      "length": 156,
+      "normalized_E": 14757.636384207304
+    },
+    {
+      "seed": 20261036,
+      "alpha": 0.4,
+      "yield_ratio": 1.5536076917683348,
+      "E": 9430.679009421154,
+      "reason": "finite",
+      "start": 43,
+      "length": 207,
+      "normalized_E": 11283.180270070745
+    },
+    {
+      "seed": 20261036,
+      "alpha": 0.5,
+      "yield_ratio": 1.5134248715901286,
+      "E": 8582.87637988041,
+      "reason": "finite",
+      "start": 42,
+      "length": 208,
+      "normalized_E": 9676.482043575736
+    },
+    {
+      "seed": 20261036,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4732420514119224,
+      "E": 7790.252310064421,
+      "reason": "finite",
+      "start": 42,
+      "length": 207,
+      "normalized_E": 8588.024403917749
+    },
+    {
+      "seed": 20261036,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.433059231233716,
+      "E": 7213.463628624537,
+      "reason": "finite",
+      "start": 8680,
+      "length": 329,
+      "normalized_E": 7820.200576714502
+    },
+    {
+      "seed": 20261036,
+      "alpha": 0.8,
+      "yield_ratio": 1.3928764110555103,
+      "E": 7981.71817417437,
+      "reason": "finite",
+      "start": 7864,
+      "length": 1144,
+      "normalized_E": 7513.481352471717
+    },
+    {
+      "seed": 20261036,
+      "alpha": 0.9,
+      "yield_ratio": 1.352693590877304,
+      "E": 27773.15771746704,
+      "reason": "finite",
+      "start": 7241,
+      "length": 2847,
+      "normalized_E": 21561.40166509128
+    },
+    {
+      "seed": 20261036,
+      "alpha": 1.0,
+      "yield_ratio": 1.3125107706990975,
+      "E": 74139.12838295747,
+      "reason": "finite",
+      "start": 6401,
+      "length": 4430,
+      "normalized_E": 61446.41273304099
+    },
+    {
+      "seed": 20261037,
+      "alpha": 0.0,
+      "yield_ratio": 1.720516391752776,
+      "E": 40587.040932028365,
+      "reason": "finite",
+      "start": 4332,
+      "length": 2098,
+      "normalized_E": 72800.96062994162
+    },
+    {
+      "seed": 20261037,
+      "alpha": 0.1,
+      "yield_ratio": 1.680207582783913,
+      "E": 22602.113555252654,
+      "reason": "finite",
+      "start": 4489,
+      "length": 1941,
+      "normalized_E": 44367.21427165573
+    },
+    {
+      "seed": 20261037,
+      "alpha": 0.2,
+      "yield_ratio": 1.6398987738150501,
+      "E": 17232.508276342378,
+      "reason": "finite",
+      "start": 1485,
+      "length": 275,
+      "normalized_E": 26869.032562584878
+    },
+    {
+      "seed": 20261037,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.5995899648461873,
+      "E": 14207.518934617918,
+      "reason": "finite",
+      "start": 1483,
+      "length": 277,
+      "normalized_E": 16698.986251696515
+    },
+    {
+      "seed": 20261037,
+      "alpha": 0.4,
+      "yield_ratio": 1.5592811558773245,
+      "E": 11328.579330117434,
+      "reason": "finite",
+      "start": 1482,
+      "length": 278,
+      "normalized_E": 13318.037659486508
+    },
+    {
+      "seed": 20261037,
+      "alpha": 0.5,
+      "yield_ratio": 1.5189723469084617,
+      "E": 8496.833246275193,
+      "reason": "finite",
+      "start": 1481,
+      "length": 279,
+      "normalized_E": 10116.107065369273
+    },
+    {
+      "seed": 20261037,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.478663537939599,
+      "E": 6191.801289864961,
+      "reason": "finite",
+      "start": 7123,
+      "length": 229,
+      "normalized_E": 7127.129708973371
+    },
+    {
+      "seed": 20261037,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4383547289707366,
+      "E": 5402.931374168838,
+      "reason": "finite",
+      "start": 7122,
+      "length": 230,
+      "normalized_E": 5873.643420702399
+    },
+    {
+      "seed": 20261037,
+      "alpha": 0.8,
+      "yield_ratio": 1.3980459200018738,
+      "E": 4882.227898998797,
+      "reason": "finite",
+      "start": 7122,
+      "length": 230,
+      "normalized_E": 4861.925768631016
+    },
+    {
+      "seed": 20261037,
+      "alpha": 0.9,
+      "yield_ratio": 1.3577371110330105,
+      "E": 24418.681337484144,
+      "reason": "finite",
+      "start": 7121,
+      "length": 2775,
+      "normalized_E": 18803.599847960155
+    },
+    {
+      "seed": 20261037,
+      "alpha": 1.0,
+      "yield_ratio": 1.3174283020641477,
+      "E": 72387.74642921734,
+      "reason": "finite",
+      "start": 6593,
+      "length": 3639,
+      "normalized_E": 61986.34678565216
+    },
+    {
+      "seed": 20261038,
+      "alpha": 0.0,
+      "yield_ratio": 1.716713801665248,
+      "E": 40519.23266740743,
+      "reason": "finite",
+      "start": 4639,
+      "length": 2899,
+      "normalized_E": 70505.96416636299
+    },
+    {
+      "seed": 20261038,
+      "alpha": 0.1,
+      "yield_ratio": 1.6756462781682053,
+      "E": 19988.928510059603,
+      "reason": "finite",
+      "start": 4639,
+      "length": 2715,
+      "normalized_E": 50122.3787842864
+    },
+    {
+      "seed": 20261038,
+      "alpha": 0.2,
+      "yield_ratio": 1.6345787546711628,
+      "E": 12547.088305844489,
+      "reason": "finite",
+      "start": 6302,
+      "length": 307,
+      "normalized_E": 29833.50968231453
+    },
+    {
+      "seed": 20261038,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.59351123117412,
+      "E": 10227.55213651905,
+      "reason": "finite",
+      "start": 6303,
+      "length": 306,
+      "normalized_E": 17114.292845463817
+    },
+    {
+      "seed": 20261038,
+      "alpha": 0.4,
+      "yield_ratio": 1.5524437076770776,
+      "E": 8056.446052391431,
+      "reason": "finite",
+      "start": 6304,
+      "length": 304,
+      "normalized_E": 12159.781970316806
+    },
+    {
+      "seed": 20261038,
+      "alpha": 0.5,
+      "yield_ratio": 1.5113761841800348,
+      "E": 5965.296377698367,
+      "reason": "finite",
+      "start": 6305,
+      "length": 303,
+      "normalized_E": 8044.420799875661
+    },
+    {
+      "seed": 20261038,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.470308660682992,
+      "E": 5153.88431608642,
+      "reason": "finite",
+      "start": 7144,
+      "length": 208,
+      "normalized_E": 6052.958673173329
+    },
+    {
+      "seed": 20261038,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4292411371859493,
+      "E": 5024.7762639797875,
+      "reason": "finite",
+      "start": 8345,
+      "length": 375,
+      "normalized_E": 5668.2187324731785
+    },
+    {
+      "seed": 20261038,
+      "alpha": 0.8,
+      "yield_ratio": 1.3881736136889067,
+      "E": 6297.078992935392,
+      "reason": "finite",
+      "start": 8345,
+      "length": 375,
+      "normalized_E": 6066.082961391192
+    },
+    {
+      "seed": 20261038,
+      "alpha": 0.9,
+      "yield_ratio": 1.3471060901918643,
+      "E": 27956.83937338261,
+      "reason": "finite",
+      "start": 6833,
+      "length": 3039,
+      "normalized_E": 20837.496702053002
+    },
+    {
+      "seed": 20261038,
+      "alpha": 1.0,
+      "yield_ratio": 1.3060385666948218,
+      "E": 69020.19713275378,
+      "reason": "finite",
+      "start": 6569,
+      "length": 4023,
+      "normalized_E": 56458.54671601379
+    },
+    {
+      "seed": 20261039,
+      "alpha": 0.0,
+      "yield_ratio": 1.7241317536410175,
+      "E": 59177.07221744478,
+      "reason": "finite",
+      "start": 2700,
+      "length": 2483,
+      "normalized_E": 88445.71590891482
+    },
+    {
+      "seed": 20261039,
+      "alpha": 0.1,
+      "yield_ratio": 1.6838366939273166,
+      "E": 42602.91568760696,
+      "reason": "finite",
+      "start": 3474,
+      "length": 849,
+      "normalized_E": 57654.895321026415
+    },
+    {
+      "seed": 20261039,
+      "alpha": 0.2,
+      "yield_ratio": 1.6435416342136153,
+      "E": 29361.641500766375,
+      "reason": "finite",
+      "start": 3474,
+      "length": 849,
+      "normalized_E": 36768.25799233529
+    },
+    {
+      "seed": 20261039,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.6032465744999138,
+      "E": 16813.773755117727,
+      "reason": "finite",
+      "start": 3474,
+      "length": 850,
+      "normalized_E": 24539.54300638048
+    },
+    {
+      "seed": 20261039,
+      "alpha": 0.4,
+      "yield_ratio": 1.5629515147862125,
+      "E": 11046.418865677551,
+      "reason": "finite",
+      "start": 7763,
+      "length": 216,
+      "normalized_E": 12477.852106620441
+    },
+    {
+      "seed": 20261039,
+      "alpha": 0.5,
+      "yield_ratio": 1.522656455072511,
+      "E": 9703.676645151514,
+      "reason": "finite",
+      "start": 7751,
+      "length": 227,
+      "normalized_E": 10938.629188493098
+    },
+    {
+      "seed": 20261039,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4823613953588097,
+      "E": 8498.946131765464,
+      "reason": "finite",
+      "start": 7747,
+      "length": 231,
+      "normalized_E": 9431.216492682724
+    },
+    {
+      "seed": 20261039,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4420663356451089,
+      "E": 7382.217523406318,
+      "reason": "finite",
+      "start": 7747,
+      "length": 230,
+      "normalized_E": 7898.313214070542
+    },
+    {
+      "seed": 20261039,
+      "alpha": 0.8,
+      "yield_ratio": 1.4017712759314074,
+      "E": 6730.249345242104,
+      "reason": "finite",
+      "start": 7745,
+      "length": 255,
+      "normalized_E": 6752.40669980977
+    },
+    {
+      "seed": 20261039,
+      "alpha": 0.9,
+      "yield_ratio": 1.361476216217706,
+      "E": 18083.715284343853,
+      "reason": "finite",
+      "start": 7073,
+      "length": 2031,
+      "normalized_E": 14914.203365226815
+    },
+    {
+      "seed": 20261039,
+      "alpha": 1.0,
+      "yield_ratio": 1.3211811565040046,
+      "E": 70084.41365510719,
+      "reason": "finite",
+      "start": 6905,
+      "length": 3687,
+      "normalized_E": 60385.156285744866
+    },
+    {
+      "seed": 20261040,
+      "alpha": 0.0,
+      "yield_ratio": 1.7078320573233323,
+      "E": 17001.43200052796,
+      "reason": "finite",
+      "start": 4491,
+      "length": 502,
+      "normalized_E": 33805.348533440476
+    },
+    {
+      "seed": 20261040,
+      "alpha": 0.1,
+      "yield_ratio": 1.6684919750284162,
+      "E": 11250.285310986364,
+      "reason": "finite",
+      "start": 2151,
+      "length": 260,
+      "normalized_E": 16696.053007771276
+    },
+    {
+      "seed": 20261040,
+      "alpha": 0.2,
+      "yield_ratio": 1.6291518927335,
+      "E": 8603.100011377464,
+      "reason": "finite",
+      "start": 2152,
+      "length": 255,
+      "normalized_E": 14133.48401265472
+    },
+    {
+      "seed": 20261040,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.5898118104385839,
+      "E": 7398.749365310185,
+      "reason": "finite",
+      "start": 8710,
+      "length": 133,
+      "normalized_E": 12081.598267710826
+    },
+    {
+      "seed": 20261040,
+      "alpha": 0.4,
+      "yield_ratio": 1.5504717281436677,
+      "E": 6737.842522127787,
+      "reason": "finite",
+      "start": 8710,
+      "length": 132,
+      "normalized_E": 10404.64194402995
+    },
+    {
+      "seed": 20261040,
+      "alpha": 0.5,
+      "yield_ratio": 1.511131645848752,
+      "E": 6194.521559163637,
+      "reason": "finite",
+      "start": 8705,
+      "length": 136,
+      "normalized_E": 9545.814548251714
+    },
+    {
+      "seed": 20261040,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4717915635538357,
+      "E": 5729.463881613163,
+      "reason": "finite",
+      "start": 8705,
+      "length": 136,
+      "normalized_E": 9363.415573254548
+    },
+    {
+      "seed": 20261040,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.43245148125892,
+      "E": 8152.677971613855,
+      "reason": "finite",
+      "start": 8032,
+      "length": 809,
+      "normalized_E": 9714.878930113598
+    },
+    {
+      "seed": 20261040,
+      "alpha": 0.8,
+      "yield_ratio": 1.3931113989640036,
+      "E": 11815.345349652926,
+      "reason": "finite",
+      "start": 7984,
+      "length": 857,
+      "normalized_E": 11502.799758361652
+    },
+    {
+      "seed": 20261040,
+      "alpha": 0.9,
+      "yield_ratio": 1.3537713166690875,
+      "E": 21662.4345831103,
+      "reason": "finite",
+      "start": 6785,
+      "length": 2727,
+      "normalized_E": 17666.991102569125
+    },
+    {
+      "seed": 20261040,
+      "alpha": 1.0,
+      "yield_ratio": 1.3144312343741715,
+      "E": 65359.671213640664,
+      "reason": "finite",
+      "start": 6545,
+      "length": 4190,
+      "normalized_E": 54190.75948476162
+    },
+    {
+      "seed": 20261041,
+      "alpha": 0.0,
+      "yield_ratio": 1.9283616388057219,
+      "E": 19357.704783589783,
+      "reason": "finite",
+      "start": 3952,
+      "length": 1023,
+      "normalized_E": 45664.846049701206
+    },
+    {
+      "seed": 20261041,
+      "alpha": 0.1,
+      "yield_ratio": 1.8653774895854696,
+      "E": 13958.12352713538,
+      "reason": "finite",
+      "start": 6770,
+      "length": 333,
+      "normalized_E": 29688.95098840547
+    },
+    {
+      "seed": 20261041,
+      "alpha": 0.2,
+      "yield_ratio": 1.802393340365217,
+      "E": 11554.569728938746,
+      "reason": "finite",
+      "start": 6767,
+      "length": 336,
+      "normalized_E": 19363.576310538076
+    },
+    {
+      "seed": 20261041,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.7394091911449647,
+      "E": 9352.937700816605,
+      "reason": "finite",
+      "start": 6767,
+      "length": 338,
+      "normalized_E": 16075.552973918908
+    },
+    {
+      "seed": 20261041,
+      "alpha": 0.4,
+      "yield_ratio": 1.676425041924712,
+      "E": 7503.131055511942,
+      "reason": "finite",
+      "start": 6767,
+      "length": 201,
+      "normalized_E": 12977.998180632945
+    },
+    {
+      "seed": 20261041,
+      "alpha": 0.5,
+      "yield_ratio": 1.61344089270446,
+      "E": 5816.834955370228,
+      "reason": "finite",
+      "start": 6785,
+      "length": 183,
+      "normalized_E": 10192.758130048926
+    },
+    {
+      "seed": 20261041,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.5504567434842074,
+      "E": 4877.148234006367,
+      "reason": "finite",
+      "start": 8632,
+      "length": 112,
+      "normalized_E": 7400.242851114424
+    },
+    {
+      "seed": 20261041,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4874725942639546,
+      "E": 4360.43988838431,
+      "reason": "finite",
+      "start": 8632,
+      "length": 112,
+      "normalized_E": 5243.403832688171
+    },
+    {
+      "seed": 20261041,
+      "alpha": 0.8,
+      "yield_ratio": 1.4244884450437023,
+      "E": 4638.0855883616605,
+      "reason": "finite",
+      "start": 8632,
+      "length": 256,
+      "normalized_E": 4948.2555512327235
+    },
+    {
+      "seed": 20261041,
+      "alpha": 0.9,
+      "yield_ratio": 1.3615042958234498,
+      "E": 18101.438239417737,
+      "reason": "finite",
+      "start": 6857,
+      "length": 2775,
+      "normalized_E": 12938.87420435992
+    },
+    {
+      "seed": 20261041,
+      "alpha": 1.0,
+      "yield_ratio": 1.2985201466031975,
+      "E": 73054.2267278907,
+      "reason": "finite",
+      "start": 6521,
+      "length": 4192,
+      "normalized_E": 60617.340545424806
+    },
+    {
+      "seed": 20261042,
+      "alpha": 0.0,
+      "yield_ratio": 1.9373294836694004,
+      "E": 54869.56391117456,
+      "reason": "finite",
+      "start": 2605,
+      "length": 929,
+      "normalized_E": 80232.49162386441
+    },
+    {
+      "seed": 20261042,
+      "alpha": 0.1,
+      "yield_ratio": 1.8721519834386842,
+      "E": 41772.39991470515,
+      "reason": "finite",
+      "start": 2606,
+      "length": 928,
+      "normalized_E": 58618.56742548369
+    },
+    {
+      "seed": 20261042,
+      "alpha": 0.2,
+      "yield_ratio": 1.806974483207968,
+      "E": 29100.623226796553,
+      "reason": "finite",
+      "start": 2607,
+      "length": 927,
+      "normalized_E": 42128.049998443516
+    },
+    {
+      "seed": 20261042,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.7417969829772517,
+      "E": 17313.059890909135,
+      "reason": "finite",
+      "start": 2608,
+      "length": 926,
+      "normalized_E": 30876.825643685726
+    },
+    {
+      "seed": 20261042,
+      "alpha": 0.4,
+      "yield_ratio": 1.676619482746536,
+      "E": 11765.92527845561,
+      "reason": "finite",
+      "start": 64,
+      "length": 283,
+      "normalized_E": 19347.573444942136
+    },
+    {
+      "seed": 20261042,
+      "alpha": 0.5,
+      "yield_ratio": 1.6114419825158195,
+      "E": 10712.749872559647,
+      "reason": "finite",
+      "start": 64,
+      "length": 282,
+      "normalized_E": 13880.801823209826
+    },
+    {
+      "seed": 20261042,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.5462644822851033,
+      "E": 9862.492307743865,
+      "reason": "finite",
+      "start": 64,
+      "length": 282,
+      "normalized_E": 12547.858840083703
+    },
+    {
+      "seed": 20261042,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4810869820543873,
+      "E": 9325.135813680448,
+      "reason": "finite",
+      "start": 64,
+      "length": 400,
+      "normalized_E": 11172.562625467079
+    },
+    {
+      "seed": 20261042,
+      "alpha": 0.8,
+      "yield_ratio": 1.4159094818236713,
+      "E": 9622.020906690614,
+      "reason": "finite",
+      "start": 64,
+      "length": 424,
+      "normalized_E": 9972.164315400982
+    },
+    {
+      "seed": 20261042,
+      "alpha": 0.9,
+      "yield_ratio": 1.3507319815929548,
+      "E": 22529.144955076263,
+      "reason": "finite",
+      "start": 6905,
+      "length": 3111,
+      "normalized_E": 14708.708882880717
+    },
+    {
+      "seed": 20261042,
+      "alpha": 1.0,
+      "yield_ratio": 1.2855544813622386,
+      "E": 79597.53368991612,
+      "reason": "finite",
+      "start": 6569,
+      "length": 4190,
+      "normalized_E": 63331.98579696151
+    },
+    {
+      "seed": 20261043,
+      "alpha": 0.0,
+      "yield_ratio": 1.8975039417915456,
+      "E": 23352.652956588398,
+      "reason": "finite",
+      "start": 4541,
+      "length": 667,
+      "normalized_E": 53987.81320528145
+    },
+    {
+      "seed": 20261043,
+      "alpha": 0.1,
+      "yield_ratio": 1.8378741246499073,
+      "E": 15524.129676448327,
+      "reason": "finite",
+      "start": 4541,
+      "length": 668,
+      "normalized_E": 32361.77141173253
+    },
+    {
+      "seed": 20261043,
+      "alpha": 0.2,
+      "yield_ratio": 1.7782443075082688,
+      "E": 13054.54918699454,
+      "reason": "finite",
+      "start": 1585,
+      "length": 214,
+      "normalized_E": 17862.888138157563
+    },
+    {
+      "seed": 20261043,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.71861449036663,
+      "E": 10848.956070767628,
+      "reason": "finite",
+      "start": 1585,
+      "length": 214,
+      "normalized_E": 13081.137348792283
+    },
+    {
+      "seed": 20261043,
+      "alpha": 0.4,
+      "yield_ratio": 1.6589846732249918,
+      "E": 8751.371877388767,
+      "reason": "finite",
+      "start": 1585,
+      "length": 214,
+      "normalized_E": 10920.056936616646
+    },
+    {
+      "seed": 20261043,
+      "alpha": 0.5,
+      "yield_ratio": 1.5993548560833533,
+      "E": 7555.660244930303,
+      "reason": "finite",
+      "start": 8635,
+      "length": 182,
+      "normalized_E": 9123.526908550004
+    },
+    {
+      "seed": 20261043,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.5397250389417148,
+      "E": 6770.964911660936,
+      "reason": "finite",
+      "start": 8296,
+      "length": 209,
+      "normalized_E": 8251.185197675106
+    },
+    {
+      "seed": 20261043,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4800952218000762,
+      "E": 6506.595452502195,
+      "reason": "finite",
+      "start": 8296,
+      "length": 208,
+      "normalized_E": 7376.989116514218
+    },
+    {
+      "seed": 20261043,
+      "alpha": 0.8,
+      "yield_ratio": 1.4204654046584377,
+      "E": 6461.677634811436,
+      "reason": "finite",
+      "start": 8296,
+      "length": 208,
+      "normalized_E": 6655.65605901918
+    },
+    {
+      "seed": 20261043,
+      "alpha": 0.9,
+      "yield_ratio": 1.3608355875167992,
+      "E": 18701.947325322282,
+      "reason": "finite",
+      "start": 7745,
+      "length": 1599,
+      "normalized_E": 15708.155590652867
+    },
+    {
+      "seed": 20261043,
+      "alpha": 1.0,
+      "yield_ratio": 1.301205770375161,
+      "E": 75689.33543929455,
+      "reason": "finite",
+      "start": 6473,
+      "length": 4047,
+      "normalized_E": 63015.98187390153
+    },
+    {
+      "seed": 20261044,
+      "alpha": 0.0,
+      "yield_ratio": 1.6705052576797952,
+      "E": 47331.670235553895,
+      "reason": "finite",
+      "start": 942,
+      "length": 2258,
+      "normalized_E": 67746.76615487826
+    },
+    {
+      "seed": 20261044,
+      "alpha": 0.1,
+      "yield_ratio": 1.6364644160323378,
+      "E": 29443.823579461117,
+      "reason": "finite",
+      "start": 942,
+      "length": 2258,
+      "normalized_E": 48528.732068316065
+    },
+    {
+      "seed": 20261044,
+      "alpha": 0.2,
+      "yield_ratio": 1.6024235743848805,
+      "E": 19877.428313909553,
+      "reason": "finite",
+      "start": 942,
+      "length": 291,
+      "normalized_E": 31752.7873295694
+    },
+    {
+      "seed": 20261044,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.5683827327374233,
+      "E": 16914.76316853936,
+      "reason": "finite",
+      "start": 942,
+      "length": 290,
+      "normalized_E": 19133.971375726767
+    },
+    {
+      "seed": 20261044,
+      "alpha": 0.4,
+      "yield_ratio": 1.534341891089966,
+      "E": 14069.40114576499,
+      "reason": "finite",
+      "start": 940,
+      "length": 292,
+      "normalized_E": 15707.048271432412
+    },
+    {
+      "seed": 20261044,
+      "alpha": 0.5,
+      "yield_ratio": 1.5003010494425086,
+      "E": 11396.054075726373,
+      "reason": "finite",
+      "start": 951,
+      "length": 281,
+      "normalized_E": 12704.957078417256
+    },
+    {
+      "seed": 20261044,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4662602077950515,
+      "E": 8850.71944945792,
+      "reason": "finite",
+      "start": 952,
+      "length": 280,
+      "normalized_E": 10026.07536907871
+    },
+    {
+      "seed": 20261044,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4322193661475942,
+      "E": 7197.806007252686,
+      "reason": "finite",
+      "start": 7936,
+      "length": 280,
+      "normalized_E": 7692.387177438039
+    },
+    {
+      "seed": 20261044,
+      "alpha": 0.8,
+      "yield_ratio": 1.398178524500137,
+      "E": 7549.693025443878,
+      "reason": "finite",
+      "start": 7937,
+      "length": 447,
+      "normalized_E": 7508.713283758436
+    },
+    {
+      "seed": 20261044,
+      "alpha": 0.9,
+      "yield_ratio": 1.3641376828526801,
+      "E": 26574.78187406456,
+      "reason": "finite",
+      "start": 7625,
+      "length": 2535,
+      "normalized_E": 22474.514137802485
+    },
+    {
+      "seed": 20261044,
+      "alpha": 1.0,
+      "yield_ratio": 1.3300968412052225,
+      "E": 67881.38841550151,
+      "reason": "finite",
+      "start": 6617,
+      "length": 3758,
+      "normalized_E": 59621.80607658194
+    },
+    {
+      "seed": 20261045,
+      "alpha": 0.0,
+      "yield_ratio": 1.6914550273965792,
+      "E": 51865.43932482629,
+      "reason": "finite",
+      "start": 3888,
+      "length": 2729,
+      "normalized_E": 78392.70987691954
+    },
+    {
+      "seed": 20261045,
+      "alpha": 0.1,
+      "yield_ratio": 1.6531861076274643,
+      "E": 33404.477118271374,
+      "reason": "finite",
+      "start": 4206,
+      "length": 1345,
+      "normalized_E": 54184.64145941255
+    },
+    {
+      "seed": 20261045,
+      "alpha": 0.2,
+      "yield_ratio": 1.6149171878583497,
+      "E": 18876.53660401475,
+      "reason": "finite",
+      "start": 4206,
+      "length": 1345,
+      "normalized_E": 32381.710476066684
+    },
+    {
+      "seed": 20261045,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.576648268089235,
+      "E": 14377.097969085211,
+      "reason": "finite",
+      "start": 7335,
+      "length": 715,
+      "normalized_E": 20280.080388392438
+    },
+    {
+      "seed": 20261045,
+      "alpha": 0.4,
+      "yield_ratio": 1.5383793483201205,
+      "E": 12475.912248132692,
+      "reason": "finite",
+      "start": 7335,
+      "length": 713,
+      "normalized_E": 17441.05838571291
+    },
+    {
+      "seed": 20261045,
+      "alpha": 0.5,
+      "yield_ratio": 1.5001104285510056,
+      "E": 11081.130889244727,
+      "reason": "finite",
+      "start": 7336,
+      "length": 712,
+      "normalized_E": 15099.73580833248
+    },
+    {
+      "seed": 20261045,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.461841508781891,
+      "E": 10533.233416550676,
+      "reason": "finite",
+      "start": 7336,
+      "length": 712,
+      "normalized_E": 13096.989979218692
+    },
+    {
+      "seed": 20261045,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4235725890127764,
+      "E": 10280.244122536213,
+      "reason": "finite",
+      "start": 7337,
+      "length": 711,
+      "normalized_E": 11227.80345611024
+    },
+    {
+      "seed": 20261045,
+      "alpha": 0.8,
+      "yield_ratio": 1.3853036692436618,
+      "E": 10919.430918897735,
+      "reason": "finite",
+      "start": 7337,
+      "length": 735,
+      "normalized_E": 10361.143706030212
+    },
+    {
+      "seed": 20261045,
+      "alpha": 0.9,
+      "yield_ratio": 1.3470347494745472,
+      "E": 28937.19226029265,
+      "reason": "finite",
+      "start": 7337,
+      "length": 2223,
+      "normalized_E": 23311.751125457697
+    },
+    {
+      "seed": 20261045,
+      "alpha": 1.0,
+      "yield_ratio": 1.3087658297054323,
+      "E": 70848.16132658711,
+      "reason": "finite",
+      "start": 6593,
+      "length": 4238,
+      "normalized_E": 58571.45822251931
+    },
+    {
+      "seed": 20261046,
+      "alpha": 0.0,
+      "yield_ratio": 1.7578231388121053,
+      "E": 21811.271216679263,
+      "reason": "finite",
+      "start": 2951,
+      "length": 1028,
+      "normalized_E": 51979.51974997409
+    },
+    {
+      "seed": 20261046,
+      "alpha": 0.1,
+      "yield_ratio": 1.714797123843949,
+      "E": 18239.158610699604,
+      "reason": "finite",
+      "start": 209,
+      "length": 342,
+      "normalized_E": 30403.556148160977
+    },
+    {
+      "seed": 20261046,
+      "alpha": 0.2,
+      "yield_ratio": 1.671771108875793,
+      "E": 16643.090533005965,
+      "reason": "finite",
+      "start": 209,
+      "length": 342,
+      "normalized_E": 22616.211250694498
+    },
+    {
+      "seed": 20261046,
+      "alpha": 0.30000000000000004,
+      "yield_ratio": 1.6287450939076364,
+      "E": 15129.136602131526,
+      "reason": "finite",
+      "start": 209,
+      "length": 343,
+      "normalized_E": 19132.07057870648
+    },
+    {
+      "seed": 20261046,
+      "alpha": 0.4,
+      "yield_ratio": 1.58571907893948,
+      "E": 13745.610930542838,
+      "reason": "finite",
+      "start": 209,
+      "length": 344,
+      "normalized_E": 16444.76000677309
+    },
+    {
+      "seed": 20261046,
+      "alpha": 0.5,
+      "yield_ratio": 1.5426930639713239,
+      "E": 12507.296612009523,
+      "reason": "finite",
+      "start": 209,
+      "length": 349,
+      "normalized_E": 15038.293489697739
+    },
+    {
+      "seed": 20261046,
+      "alpha": 0.6000000000000001,
+      "yield_ratio": 1.4996670490031676,
+      "E": 11375.207266998917,
+      "reason": "finite",
+      "start": 209,
+      "length": 349,
+      "normalized_E": 14873.016248255182
+    },
+    {
+      "seed": 20261046,
+      "alpha": 0.7000000000000001,
+      "yield_ratio": 1.4566410340350113,
+      "E": 11392.745447689638,
+      "reason": "finite",
+      "start": 8176,
+      "length": 1143,
+      "normalized_E": 15379.484570491972
+    },
+    {
+      "seed": 20261046,
+      "alpha": 0.8,
+      "yield_ratio": 1.413615019066855,
+      "E": 16756.57026444521,
+      "reason": "finite",
+      "start": 8177,
+      "length": 1215,
+      "normalized_E": 17617.91518382213
+    },
+    {
+      "seed": 20261046,
+      "alpha": 0.9,
+      "yield_ratio": 1.370589004098699,
+      "E": 28257.721618696858,
+      "reason": "finite",
+      "start": 7889,
+      "length": 1982,
+      "normalized_E": 25756.73559294826
+    },
+    {
+      "seed": 20261046,
+      "alpha": 1.0,
+      "yield_ratio": 1.3275629891305425,
+      "E": 70126.7894870684,
+      "reason": "finite",
+      "start": 6569,
+      "length": 3975,
+      "normalized_E": 60833.65582566252
+    }
+  ],
+  "annual_checks": [
+    {
+      "seed": 20261017,
+      "scan_seconds": 0.014234500002203276,
+      "lp_seconds": 0.5405928000000131,
+      "E": 8146.6323087880855,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 453626.5457056202,
+      "max_residual": 4.547473508864641e-13,
+      "e0": 2678.8968059717686,
+      "analytical_E": 8146.632308788336
+    },
+    {
+      "seed": 20261018,
+      "scan_seconds": 0.014437300000281539,
+      "lp_seconds": 0.5080559000016365,
+      "E": 6539.12027419871,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 553348.7184140431,
+      "max_residual": 4.511946372076636e-13,
+      "e0": 0.0,
+      "analytical_E": 6539.120274198736
+    },
+    {
+      "seed": 20261019,
+      "scan_seconds": 0.01427740000144695,
+      "lp_seconds": 0.4842348000020138,
+      "E": 8029.454612179995,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 443711.41721556394,
+      "max_residual": 4.689582056016661e-13,
+      "e0": 125.91848397702181,
+      "analytical_E": 8029.454612180125
+    },
+    {
+      "seed": 20261020,
+      "scan_seconds": 0.014871299998048926,
+      "lp_seconds": 0.4766670000026352,
+      "E": 9841.598091877775,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 414096.2463941459,
+      "max_residual": 8.810729923425242e-13,
+      "e0": 2277.6551562886557,
+      "analytical_E": 9841.598091877735
+    },
+    {
+      "seed": 20261021,
+      "scan_seconds": 0.014634299997851485,
+      "lp_seconds": 0.5036029999973834,
+      "E": 8721.14080873409,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 426638.2778069257,
+      "max_residual": 8.597567102697212e-13,
+      "e0": 885.6491600075018,
+      "analytical_E": 8721.140808733937
+    },
+    {
+      "seed": 20261022,
+      "scan_seconds": 0.014153600001009181,
+      "lp_seconds": 0.4959156000004441,
+      "E": 8732.123046163382,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 458981.46761619643,
+      "max_residual": 8.810729923425242e-13,
+      "e0": 2282.530374377256,
+      "analytical_E": 8732.123046163399
+    },
+    {
+      "seed": 20261023,
+      "scan_seconds": 0.014603200001147343,
+      "lp_seconds": 0.479645100000198,
+      "E": 9408.638567194332,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 471888.51552102854,
+      "max_residual": 9.094947017729282e-13,
+      "e0": 0.0,
+      "analytical_E": 9408.638567194168
+    },
+    {
+      "seed": 20261024,
+      "scan_seconds": 0.014622200000303565,
+      "lp_seconds": 0.4791618000017479,
+      "E": 5763.505193296828,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 446870.67686075956,
+      "max_residual": 4.689582056016661e-13,
+      "e0": 2904.33043554743,
+      "analytical_E": 5763.5051932968345
+    },
+    {
+      "seed": 20261025,
+      "scan_seconds": 0.014428700000280514,
+      "lp_seconds": 0.49184729999979027,
+      "E": 9972.371449631652,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 464343.30370606587,
+      "max_residual": 9.094947017729282e-13,
+      "e0": 171.09926744913548,
+      "analytical_E": 9972.37144963158
+    },
+    {
+      "seed": 20261026,
+      "scan_seconds": 0.01479739999922458,
+      "lp_seconds": 0.48415940000268165,
+      "E": 10467.468952844652,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 401067.77043928346,
+      "max_residual": 9.094947017729282e-13,
+      "e0": 6754.804768671485,
+      "analytical_E": 10467.46895284485
+    },
+    {
+      "seed": 20261027,
+      "scan_seconds": 0.014762099999643397,
+      "lp_seconds": 0.48007460000007995,
+      "E": 9138.53725273134,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 408543.9849198105,
+      "max_residual": 8.526512829121202e-13,
+      "e0": 4813.104827595752,
+      "analytical_E": 9138.537252731796
+    },
+    {
+      "seed": 20261028,
+      "scan_seconds": 0.014341299996885937,
+      "lp_seconds": 0.49218029999974533,
+      "E": 12703.386442884983,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 457576.0751360699,
+      "max_residual": 9.237055564881302e-13,
+      "e0": 313.91748972749735,
+      "analytical_E": 12703.386442884977
+    },
+    {
+      "seed": 20261029,
+      "scan_seconds": 0.014411100000870647,
+      "lp_seconds": 0.4828202999997302,
+      "E": 6649.597485010617,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 459498.8984753494,
+      "max_residual": 4.476419235288631e-13,
+      "e0": 1846.4796162396212,
+      "analytical_E": 6649.597485010687
+    },
+    {
+      "seed": 20261030,
+      "scan_seconds": 0.014462600000115344,
+      "lp_seconds": 0.47516470000118716,
+      "E": 9943.520242565935,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 437676.1095063493,
+      "max_residual": 8.952838470577262e-13,
+      "e0": 0.0,
+      "analytical_E": 9943.52024256601
+    },
+    {
+      "seed": 20261031,
+      "scan_seconds": 0.014353299997310387,
+      "lp_seconds": 0.4982528000000457,
+      "E": 9354.356367322694,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 441123.1779164939,
+      "max_residual": 8.952838470577262e-13,
+      "e0": -0.0,
+      "analytical_E": 9354.356367322674
+    },
+    {
+      "seed": 20261032,
+      "scan_seconds": 0.014217100000678329,
+      "lp_seconds": 0.49442030000136583,
+      "E": 11906.56427459936,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 353686.90614407934,
+      "max_residual": 8.952838470577262e-13,
+      "e0": 11452.073883107425,
+      "analytical_E": 11906.564274599346
+    },
+    {
+      "seed": 20261033,
+      "scan_seconds": 0.014482799997495022,
+      "lp_seconds": 0.5309517999994569,
+      "E": 9916.581364253143,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 374686.0634421434,
+      "max_residual": 8.952838470577262e-13,
+      "e0": 2059.0163341452994,
+      "analytical_E": 9916.581364253187
+    },
+    {
+      "seed": 20261034,
+      "scan_seconds": 0.0157020000006014,
+      "lp_seconds": 0.5020211000010022,
+      "E": 14360.004909613437,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 381467.07988206117,
+      "max_residual": 9.237055564881302e-13,
+      "e0": 5248.850604260436,
+      "analytical_E": 14360.004909613443
+    },
+    {
+      "seed": 20261035,
+      "scan_seconds": 0.014295699998911005,
+      "lp_seconds": 0.4725390999992669,
+      "E": 12552.42451514023,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 453528.32226711314,
+      "max_residual": 9.094947017729282e-13,
+      "e0": 826.9327312924866,
+      "analytical_E": 12552.42451514036
+    },
+    {
+      "seed": 20261036,
+      "scan_seconds": 0.014643200000136858,
+      "lp_seconds": 0.4956701000010071,
+      "E": 8582.876379880408,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 423354.05344785296,
+      "max_residual": 8.952838470577262e-13,
+      "e0": 5563.787332461219,
+      "analytical_E": 8582.87637988041
+    },
+    {
+      "seed": 20261037,
+      "scan_seconds": 0.014602400002331706,
+      "lp_seconds": 0.5128914000015357,
+      "E": 8496.833246275233,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 428220.7976791878,
+      "max_residual": 8.952838470577262e-13,
+      "e0": -0.0,
+      "analytical_E": 8496.833246275193
+    },
+    {
+      "seed": 20261038,
+      "scan_seconds": 0.014979600000515347,
+      "lp_seconds": 0.4806674999999814,
+      "E": 5965.2963776986435,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 421389.7289125088,
+      "max_residual": 4.547473508864641e-13,
+      "e0": 0.0,
+      "analytical_E": 5965.296377698367
+    },
+    {
+      "seed": 20261039,
+      "scan_seconds": 0.014789299999392824,
+      "lp_seconds": 0.47929350000049453,
+      "E": 9703.676645151198,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 430770.70574569463,
+      "max_residual": 9.094947017729282e-13,
+      "e0": -0.0,
+      "analytical_E": 9703.676645151514
+    },
+    {
+      "seed": 20261040,
+      "scan_seconds": 0.014845499998045852,
+      "lp_seconds": 0.5378103000002739,
+      "E": 6194.521559163828,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 421764.0471498546,
+      "max_residual": 4.689582056016661e-13,
+      "e0": 3655.6302803966278,
+      "analytical_E": 6194.521559163637
+    },
+    {
+      "seed": 20261041,
+      "scan_seconds": 0.014487200001894962,
+      "lp_seconds": 0.47526490000018384,
+      "E": 5816.834955370241,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 513367.3425582526,
+      "max_residual": 4.334310688136611e-13,
+      "e0": 47.15613623187039,
+      "analytical_E": 5816.834955370228
+    },
+    {
+      "seed": 20261042,
+      "scan_seconds": 0.014024299998709466,
+      "lp_seconds": 0.4872795999981463,
+      "E": 10712.74987255964,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 511022.3306974536,
+      "max_residual": 9.379164112033322e-13,
+      "e0": 182.9148244366611,
+      "analytical_E": 10712.749872559647
+    },
+    {
+      "seed": 20261043,
+      "scan_seconds": 0.014348199998494238,
+      "lp_seconds": 0.48695329999827663,
+      "E": 7555.660244930276,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 499975.45821759803,
+      "max_residual": 4.547473508864641e-13,
+      "e0": 2511.3421322026934,
+      "analytical_E": 7555.660244930303
+    },
+    {
+      "seed": 20261044,
+      "scan_seconds": 0.014008199999807402,
+      "lp_seconds": 0.46712900000056834,
+      "E": 11396.054075726373,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 412169.8298141247,
+      "max_residual": 8.952838470577262e-13,
+      "e0": 537.9845938497974,
+      "analytical_E": 11396.054075726373
+    },
+    {
+      "seed": 20261045,
+      "scan_seconds": 0.014481500002148096,
+      "lp_seconds": 0.4697898999984318,
+      "E": 11081.13088924316,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 411044.06127174705,
+      "max_residual": 9.094947017729282e-13,
+      "e0": 0.0,
+      "analytical_E": 11081.130889244727
+    },
+    {
+      "seed": 20261046,
+      "scan_seconds": 0.0142943999999261,
+      "lp_seconds": 0.46461920000001555,
+      "E": 12507.296612009517,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 449475.79128633277,
+      "max_residual": 9.094947017729282e-13,
+      "e0": 2946.1857351348654,
+      "analytical_E": 12507.296612009523
+    }
+  ],
+  "optimum": {
+    "alpha": 0.6325671377663684,
+    "E": 5874.764097988023,
+    "lp": {
+      "E": 5874.764097987631,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 397636.9236721111,
+      "max_residual": 4.831690603168681e-13,
+      "e0": 2822.3133474450588
+    }
+  },
+  "frontier": [
+    {
+      "Pc": 30.0,
+      "E": Infinity,
+      "reason": "recharge",
+      "start": null,
+      "length": null
+    },
+    {
+      "Pc": 35.0,
+      "E": Infinity,
+      "reason": "recharge",
+      "start": null,
+      "length": null
+    },
+    {
+      "Pc": 40.0,
+      "E": Infinity,
+      "reason": "recharge",
+      "start": null,
+      "length": null
+    },
+    {
+      "Pc": 45.0,
+      "E": Infinity,
+      "reason": "recharge",
+      "start": null,
+      "length": null
+    },
+    {
+      "Pc": 50.0,
+      "E": Infinity,
+      "reason": "recharge",
+      "start": null,
+      "length": null
+    },
+    {
+      "Pc": 55.0,
+      "E": Infinity,
+      "reason": "recharge",
+      "start": null,
+      "length": null
+    },
+    {
+      "Pc": 60.0,
+      "E": 18558.841093214687,
+      "reason": "finite",
+      "start": 3642,
+      "length": 3542
+    },
+    {
+      "Pc": 65.0,
+      "E": 16115.989418257126,
+      "reason": "finite",
+      "start": 5777,
+      "length": 1407
+    },
+    {
+      "Pc": 70.0,
+      "E": 13891.682478709256,
+      "reason": "finite",
+      "start": 5777,
+      "length": 1407
+    },
+    {
+      "Pc": 75.0,
+      "E": 11760.873104361148,
+      "reason": "finite",
+      "start": 5777,
+      "length": 1407
+    },
+    {
+      "Pc": 80.0,
+      "E": 9989.964885421905,
+      "reason": "finite",
+      "start": 6017,
+      "length": 1112
+    },
+    {
+      "Pc": 85.0,
+      "E": 9425.498457985232,
+      "reason": "finite",
+      "start": 8632,
+      "length": 494
+    },
+    {
+      "Pc": 90.0,
+      "E": 8993.060683078525,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 95.0,
+      "E": 8832.161146692088,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 100.0,
+      "E": 8689.281570989886,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 105.0,
+      "E": 8572.829079066694,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 110.0,
+      "E": 8473.885082578534,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 115.0,
+      "E": 8383.034484980599,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 120.0,
+      "E": 8302.862860686175,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 125.0,
+      "E": 8240.923510572087,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 130.0,
+      "E": 8198.38738619702,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 135.0,
+      "E": 8172.363763501169,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 140.0,
+      "E": 8162.211327563564,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 145.0,
+      "E": 8157.461327563564,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 150.0,
+      "E": 8152.711327563564,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 155.0,
+      "E": 8147.961327563564,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 160.0,
+      "E": 8146.632308788219,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 165.0,
+      "E": 8146.632308788219,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 170.0,
+      "E": 8146.632308788219,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 175.0,
+      "E": 8146.632308788219,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 180.0,
+      "E": 8146.632308788219,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 185.0,
+      "E": 8146.632308788219,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 190.0,
+      "E": 8146.632308788219,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 195.0,
+      "E": 8146.632308788219,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 200.0,
+      "E": 8146.632308788336,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 205.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 210.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 215.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 220.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 225.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 230.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 235.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 240.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 245.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 250.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 255.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 260.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 265.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 270.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 275.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 280.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 285.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 290.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 295.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "Pc": 300.0,
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    }
+  ],
+  "sensitivity": [
+    {
+      "ec": 0.85,
+      "ed": 0.85,
+      "E": 10482.470434904448,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 76.16750133142106,
+      "nominal_60": 17470.784058174082,
+      "nominal_80": 13103.08804363056,
+      "nominal_90": 11647.189372116052
+    },
+    {
+      "ec": 0.85,
+      "ed": 0.9,
+      "E": 9592.956861399813,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 71.17592367975594,
+      "nominal_60": 15988.261435666354,
+      "nominal_80": 11991.196076749766,
+      "nominal_90": 10658.840957110902
+    },
+    {
+      "ec": 0.85,
+      "ed": 0.95,
+      "E": 8797.076295632636,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 66.82254718184656,
+      "nominal_60": 14661.793826054394,
+      "nominal_80": 10996.345369540795,
+      "nominal_90": 9774.529217369596
+    },
+    {
+      "ec": 0.85,
+      "ed": 1.0,
+      "E": 8080.783786441898,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 62.9828640103666,
+      "nominal_60": 13467.972977403164,
+      "nominal_80": 10100.979733052372,
+      "nominal_90": 8978.648651602109
+    },
+    {
+      "ec": 0.9,
+      "ed": 0.85,
+      "E": 10157.248441482196,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 71.17592367975594,
+      "nominal_60": 16928.747402470326,
+      "nominal_80": 12696.560551852745,
+      "nominal_90": 11285.831601646883
+    },
+    {
+      "ec": 0.9,
+      "ed": 0.9,
+      "E": 9267.73486797756,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 66.5835602108374,
+      "nominal_60": 15446.224779962602,
+      "nominal_80": 11584.66858497195,
+      "nominal_90": 10297.483186641733
+    },
+    {
+      "ec": 0.9,
+      "ed": 0.95,
+      "E": 8471.854302210384,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 62.56064405831108,
+      "nominal_60": 14119.75717035064,
+      "nominal_80": 10589.81787776298,
+      "nominal_90": 9413.171446900427
+    },
+    {
+      "ec": 0.9,
+      "ed": 1.0,
+      "E": 7755.561793019646,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 59.00099147517535,
+      "nominal_60": 12925.93632169941,
+      "nominal_80": 9694.452241274557,
+      "nominal_90": 8617.29088113294
+    },
+    {
+      "ec": 0.95,
+      "ed": 0.85,
+      "E": 9832.02644806003,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 66.82254718184656,
+      "nominal_60": 16386.71074676672,
+      "nominal_80": 12290.033060075039,
+      "nominal_90": 10924.473831177811
+    },
+    {
+      "ec": 0.95,
+      "ed": 0.9,
+      "E": 8942.512874555396,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 62.56064405831108,
+      "nominal_60": 14904.188124258993,
+      "nominal_80": 11178.141093194245,
+      "nominal_90": 9936.125416172661
+    },
+    {
+      "ec": 0.95,
+      "ed": 0.95,
+      "E": 8146.632308788336,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 58.81479496514206,
+      "nominal_60": 13577.720514647226,
+      "nominal_80": 10183.29038598542,
+      "nominal_90": 9051.813676431484
+    },
+    {
+      "ec": 0.95,
+      "ed": 1.0,
+      "E": 7430.339799598034,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 55.49676334912441,
+      "nominal_60": 12383.899665996723,
+      "nominal_80": 9287.924749497543,
+      "nominal_90": 8255.933110664482
+    },
+    {
+      "ec": 1.0,
+      "ed": 0.85,
+      "E": 9506.804454637808,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 62.9828640103666,
+      "nominal_60": 15844.674091063014,
+      "nominal_80": 11883.50556829726,
+      "nominal_90": 10563.116060708675
+    },
+    {
+      "ec": 1.0,
+      "ed": 0.9,
+      "E": 8617.29088113294,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 59.00099147517535,
+      "nominal_60": 14362.151468554901,
+      "nominal_80": 10771.613601416175,
+      "nominal_90": 9574.767645703267
+    },
+    {
+      "ec": 1.0,
+      "ed": 0.95,
+      "E": 7821.410315366404,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "charging_floor": 55.49676334912441,
+      "nominal_60": 13035.683858944007,
+      "nominal_80": 9776.762894208005,
+      "nominal_90": 8690.45590596267
+    },
+    {
+      "ec": 1.0,
+      "ed": 1.0,
+      "E": 7172.594954768079,
+      "reason": "finite",
+      "start": 6904,
+      "length": 225,
+      "charging_floor": 52.385556818091516,
+      "nominal_60": 11954.324924613466,
+      "nominal_80": 8965.7436934601,
+      "nominal_90": 7969.54994974231
+    }
+  ],
+  "reliability": [
+    {
+      "eps": 0,
+      "E": 8146.6323087880855,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 453626.5457056202,
+      "max_residual": 4.547473508864641e-13,
+      "e0": 2678.8968059717686
+    },
+    {
+      "eps": 0.01,
+      "E": 4441.090367059666,
+      "status": 0,
+      "ENS": 8759.999999999953,
+      "fraction": 0.009999999999999988,
+      "shortage_hours": 127.0,
+      "longest_shortage_hours": 12.0,
+      "curtailment": 463332.9168967558,
+      "max_residual": 1.5063505998114124e-12,
+      "e0": 1157.5887743823057
+    },
+    {
+      "eps": 0.03,
+      "E": 2294.0037510249335,
+      "status": 0,
+      "ENS": 26279.9999999999,
+      "fraction": 0.030000000000000013,
+      "shortage_hours": 373.0,
+      "longest_shortage_hours": 13.0,
+      "curtailment": 482745.65927902726,
+      "max_residual": 9.094947017729282e-13,
+      "e0": 72.06446034002603
+    },
+    {
+      "eps": 0.05,
+      "E": 1359.4603932915415,
+      "status": 0,
+      "ENS": 43799.99999999984,
+      "fraction": 0.050000000000000024,
+      "shortage_hours": 641.0,
+      "longest_shortage_hours": 13.0,
+      "curtailment": 502158.40166129865,
+      "max_residual": 2.2737367544323206e-13,
+      "e0": 72.06446034002603
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "base",
+      "E": 8146.632308788336,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "lp_E": 8146.6323087880855
+    },
+    {
+      "name": "joint_low_6h",
+      "E": 8564.659078775381,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "lp_E": 8564.659078775083
+    },
+    {
+      "name": "joint_low_12h",
+      "E": 8799.850210349716,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "lp_E": 8799.850210349623
+    },
+    {
+      "name": "joint_low_24h",
+      "E": 10042.018015178706,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "lp_E": 10042.01801517863
+    },
+    {
+      "name": "joint_low_48h",
+      "E": 11407.50427387649,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "lp_E": 11407.504273876366
+    },
+    {
+      "name": "joint_low_72h",
+      "E": 12847.189177657943,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "lp_E": 12847.189177657801
+    },
+    {
+      "name": "morning demand",
+      "E": 8004.361899321841,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "lp_E": 8004.361899321611
+    },
+    {
+      "name": "flat demand",
+      "E": 8104.644267187454,
+      "reason": "finite",
+      "start": 6858,
+      "length": 272,
+      "lp_E": 8104.644267187334
+    },
+    {
+      "name": "wind_scale_0.7",
+      "E": 9827.729799924215,
+      "reason": "finite",
+      "start": 8632,
+      "length": 494,
+      "lp_E": 9827.729799924236
+    },
+    {
+      "name": "wind_scale_1.3",
+      "E": 7136.951040568587,
+      "reason": "finite",
+      "start": 6904,
+      "length": 224,
+      "lp_E": 7136.9510405682795
+    },
+    {
+      "name": "persistence_0.7",
+      "E": 1736.5453089161892,
+      "reason": "finite",
+      "start": 1216,
+      "length": 42,
+      "lp_E": 1736.5453089162177
+    },
+    {
+      "name": "persistence_0.99",
+      "E": 16532.317917910827,
+      "reason": "finite",
+      "start": 1025,
+      "length": 567,
+      "lp_E": 16532.317917910834
+    },
+    {
+      "name": "latent_cross_-0.8",
+      "E": 6923.583042620565,
+      "reason": "finite",
+      "start": 6904,
+      "length": 225,
+      "lp_E": 6923.5830426203265
+    },
+    {
+      "name": "latent_cross_0.8",
+      "E": 11699.010903058574,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271,
+      "lp_E": 11699.010903058384
+    }
+  ],
+  "robust_grid": [
+    {
+      "Pc": 50,
+      "E": Infinity,
+      "controlling": "base",
+      "start": null,
+      "length": null
+    },
+    {
+      "Pc": 75,
+      "E": Infinity,
+      "controlling": "wind_scale_0.7",
+      "start": null,
+      "length": null
+    },
+    {
+      "Pc": 100,
+      "E": 20755.787144284128,
+      "controlling": "persistence_0.99",
+      "start": 6018,
+      "length": 1239
+    },
+    {
+      "Pc": 125,
+      "E": 17850.4425495013,
+      "controlling": "persistence_0.99",
+      "start": 1025,
+      "length": 567
+    },
+    {
+      "Pc": 150,
+      "E": 17183.80213216206,
+      "controlling": "persistence_0.99",
+      "start": 1025,
+      "length": 567
+    },
+    {
+      "Pc": 175,
+      "E": 16790.13287787557,
+      "controlling": "persistence_0.99",
+      "start": 1025,
+      "length": 567
+    },
+    {
+      "Pc": 200,
+      "E": 16532.317917910827,
+      "controlling": "persistence_0.99",
+      "start": 1025,
+      "length": 567
+    },
+    {
+      "Pc": 250,
+      "E": 16385.656854706256,
+      "controlling": "persistence_0.99",
+      "start": 1025,
+      "length": 567
+    },
+    {
+      "Pc": 300,
+      "E": 16385.656854706132,
+      "controlling": "persistence_0.99",
+      "start": 1025,
+      "length": 567
+    }
+  ],
+  "adequacy": [
+    {
+      "factor": 0.95,
+      "E": Infinity,
+      "reason": "recharge",
+      "start": null,
+      "length": null
+    },
+    {
+      "factor": 1.05,
+      "E": 31962.4999924992,
+      "reason": "finite",
+      "start": 3641,
+      "length": 3544
+    },
+    {
+      "factor": 1.2,
+      "E": 15438.536044846172,
+      "reason": "finite",
+      "start": 6017,
+      "length": 1113
+    },
+    {
+      "factor": 1.4,
+      "E": 10070.352367164101,
+      "reason": "finite",
+      "start": 6858,
+      "length": 272
+    }
+  ],
+  "ablations": [
+    {
+      "name": "baseline",
+      "E": 8146.632308788336,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "name": "ignore_charge_limit",
+      "E": 8146.63230878883,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "name": "ignore_discharge_limit",
+      "E": 8146.632308788336,
+      "reason": "finite",
+      "start": 6858,
+      "length": 271
+    },
+    {
+      "name": "unit_efficiency",
+      "E": 7172.594954768079,
+      "reason": "finite",
+      "start": 6904,
+      "length": 225
+    },
+    {
+      "name": "pv_only",
+      "E": 75813.88000886684,
+      "reason": "finite",
+      "start": 6641,
+      "length": 3974
+    },
+    {
+      "name": "wind_only",
+      "E": 39101.515308537695,
+      "reason": "finite",
+      "start": 3642,
+      "length": 1633
+    }
+  ],
+  "tiny": {
+    "E": 4.0,
+    "status": 0,
+    "ENS": 0.0,
+    "fraction": 0.0,
+    "shortage_hours": 0.0,
+    "longest_shortage_hours": 0.0,
+    "curtailment": 2.0,
+    "max_residual": 0.0,
+    "e0": 1.5
+  },
+  "quarter_hour": {
+    "E": 7238.116714183503,
+    "reason": "finite",
+    "start": 23492,
+    "length": 1687,
+    "lp": {
+      "E": 7238.11671418336,
+      "status": 0,
+      "ENS": 0.0,
+      "fraction": 0.0,
+      "shortage_hours": 0.0,
+      "longest_shortage_hours": 0.0,
+      "curtailment": 389395.25363871595,
+      "max_residual": 4.583000645652646e-13,
+      "e0": 1036.65129166432
+    }
+  },
+  "autonomy": [
+    {
+      "days": 0.5,
+      "E": 1263.157894736842,
+      "feasible": false
+    },
+    {
+      "days": 1,
+      "E": 2526.315789473684,
+      "feasible": false
+    },
+    {
+      "days": 2,
+      "E": 5052.631578947368,
+      "feasible": false
+    },
+    {
+      "days": 3,
+      "E": 7578.947368421053,
+      "feasible": false
+    }
+  ],
+  "charging_floor": 58.81479496514206,
+  "discharge_floor": 140.93141831734675
+}
