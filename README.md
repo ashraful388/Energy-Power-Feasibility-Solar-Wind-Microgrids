@@ -1,7 +1,6 @@
 # Energy–Power Feasibility Boundaries for Battery Storage in Stand-Alone Solar–Wind Microgrids
 
-Simulation code and synthetic data supporting the manuscript of this title.
-No measured site data are included. These profiles represent constructed scenarios, not observations or forecasts for a specific location.
+Simulation code, synthetic profiles and results supporting the manuscript. The major revision also includes a separate Roche Plate case using measured household demand and weather with modelled renewable generation and battery dispatch.
 
 **Authors:** Rajae Gaamouche $^{1,2,*}$, Md. Ashraful Babu $^{3,4}$, and Mohammed Lahby $^{5}$  
 $^{1}$ Department of Electronics and Electromechanics, National School of Mineral Industry (ENIM), Rabat 10000, Morocco  
@@ -24,7 +23,7 @@ $^{5}$ Laboratory of Mathematics, Artificial Intelligence, and Digital Learning,
 - `datasets/annual_seed_profiles.zip`: regenerated CSV inputs for all 30 original annual seeds (20261017–20261046).
 - `datasets/scenario_profiles.zip`: regenerated generation/demand inputs for the 14 original scenarios.
 - `datasets/quarter_hour_profiles.csv.gz`: regenerated 35,040-step, 15-minute input profiles.
-- `figures/`: original manuscript figure assets.
+- `figures/`: original manuscript figures and the Roche Plate dispatch figure.
 - `export_datasets.py`: additional export and verification utility; it calls the original generator without modifying it.
 - `verification.json`: checks performed when preparing this repository. The original base CSV is compared against the regenerated base; all 330 annual mixture frontiers, 14 scenarios and the quarter-hour frontier are compared with archived results. A base-case LP is solved independently of the interval calculation. Archived timings are not new benchmarks.
 - `SHA256SUMS.json`: checksums for the release files (excluding this checksum file and Git metadata).
@@ -53,6 +52,32 @@ python reproducibility/report_annual.py
 ```
 
 The full study includes many optimisation problems and can take substantial time. Numerical solver results can differ slightly between platforms; hardware-dependent runtimes are not expected to match. The release verification does not rerun every archived experiment.
+
+## Major revision reproducibility
+
+### Roche Plate measured-input case
+
+The 460-hour replay uses recorded household 1 demand, inclined-plane solar irradiance and wind speed from the Roche Plate stand-alone PV–battery installation in Réunion. The source is Didier Calogine, *Data in experimental stand-alone microgrid* (2023), [Zenodo DOI 10.5281/zenodo.7899057](https://doi.org/10.5281/zenodo.7899057), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The hypothetical PV and wind generation and battery dispatch are model outputs. The existing installation has no wind generation.
+
+- [Aligned hourly inputs and model outputs](reproducibility/roche_plate_hourly.csv)
+- [Numerical summary](reproducibility/roche_plate_results.json)
+- [Dispatch figure](figures/roche_plate_dispatch.pdf)
+
+To repeat the replay, download and extract `Demand_house_1_dataset.7z` and `Meteo_dataset.7z` from the Zenodo record into one directory. The archive MD5 checksums are `a4beafaa2d18c7710530e55611de9f49` and `2eec78ce5c77f0b7109be318886abe94`, respectively. Install the pinned Python dependencies as above and run from the repository root.
+
+```sh
+python reproducibility/roche_plate.py RAW_DIRECTORY replay_outputs replay_outputs/roche_plate_dispatch.pdf
+```
+
+Replace `RAW_DIRECTORY` with the path to the extracted inputs. The cut and chronological LP methods give approximately 6.663 kWh with no permitted shortfall and 6.086 kWh with a 1% allowance, at the baseline ratings. Both classify the 0.05 kW discharge case as infeasible under the 1% allowance. In the summary JSON, `null` denotes infeasible capacity results.
+
+### Annual stress diagnostics
+
+Run the following from the repository root to print the base and high-persistence scenario diagnostics as JSON. The diagnostics reproduce the critical intervals and minimum usable capacities of approximately 8.147 and 16.532 MWh reported in the revised manuscript.
+
+```sh
+python reproducibility/stress_diagnostics.py reproducibility
+```
 
 ## Data dictionary
 
